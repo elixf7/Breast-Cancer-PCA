@@ -63,17 +63,29 @@
     /* Iframe Container Layout */
     .iframe-container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
       gap: 20px;
       margin-bottom: 40px;
     }
-    
-    iframe {
-      width: 100%;
-      height: 450px;
+
+    /* Responsive Iframe Wrapper */
+    .responsive-iframe {
+      position: relative;
+      padding-bottom: 70%; /* Adjust this value to control the aspect ratio */
+      height: 0;
+      overflow: hidden;
       border: 1px solid #ddd;
       border-radius: 4px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .responsive-iframe iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
     }
   </style>
 </head>
@@ -87,12 +99,16 @@
       
       <h2>RNA PCA Plot</h2>
       <div class="iframe-container">
-        <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/pca_RNA.html" title="RNA PCA Plot"></iframe>
+        <div class="responsive-iframe">
+          <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/pca_RNA.html" title="RNA PCA Plot"></iframe>
+        </div>
       </div>
       
       <h2>Mutation PCA Plot</h2>
       <div class="iframe-container">
-        <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/pca_Mutation.html" title="Mutation PCA Plot"></iframe>
+        <div class="responsive-iframe">
+          <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/pca_Mutation.html" title="Mutation PCA Plot"></iframe>
+        </div>
       </div>
     </section>
     
@@ -101,18 +117,34 @@
       
       <h2>RNA LDA Plots</h2>
       <div class="iframe-container">
-        <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_rna_cancer_type_detailed.html" title="RNA LDA: Cancer Type Detailed"></iframe>
-        <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_rna_integrative_cluster.html" title="RNA LDA: Integrative Cluster"></iframe>
-        <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_rna_neoplasm_histologic_grade.html" title="RNA LDA: Neoplasm Histologic Grade"></iframe>
-        <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_rna_tumor_other_histologic_subtype.html" title="RNA LDA: Tumor Other Histologic Subtype"></iframe>
+        <div class="responsive-iframe">
+          <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_rna_cancer_type_detailed.html" title="RNA LDA: Cancer Type Detailed"></iframe>
+        </div>
+        <div class="responsive-iframe">
+          <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_rna_integrative_cluster.html" title="RNA LDA: Integrative Cluster"></iframe>
+        </div>
+        <div class="responsive-iframe">
+          <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_rna_neoplasm_histologic_grade.html" title="RNA LDA: Neoplasm Histologic Grade"></iframe>
+        </div>
+        <div class="responsive-iframe">
+          <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_rna_tumor_other_histologic_subtype.html" title="RNA LDA: Tumor Other Histologic Subtype"></iframe>
+        </div>
       </div>
       
       <h2>Mutation LDA Plots</h2>
       <div class="iframe-container">
-        <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_mutation_cancer_type_detailed.html" title="Mutation LDA: Cancer Type Detailed"></iframe>
-        <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_mutation_integrative_cluster.html" title="Mutation LDA: Integrative Cluster"></iframe>
-        <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_mutation_neoplasm_histologic_grade.html" title="Mutation LDA: Neoplasm Histologic Grade"></iframe>
-        <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_mutation_tumor_other_histologic_subtype.html" title="Mutation LDA: Tumor Other Histologic Subtype"></iframe>
+        <div class="responsive-iframe">
+          <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_mutation_cancer_type_detailed.html" title="Mutation LDA: Cancer Type Detailed"></iframe>
+        </div>
+        <div class="responsive-iframe">
+          <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_mutation_integrative_cluster.html" title="Mutation LDA: Integrative Cluster"></iframe>
+        </div>
+        <div class="responsive-iframe">
+          <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_mutation_neoplasm_histologic_grade.html" title="Mutation LDA: Neoplasm Histologic Grade"></iframe>
+        </div>
+        <div class="responsive-iframe">
+          <iframe src="https://elixf7.github.io/Breast-Cancer-PCA/plots/lda_mutation_tumor_other_histologic_subtype.html" title="Mutation LDA: Tumor Other Histologic Subtype"></iframe>
+        </div>
       </div>
     </section>
   </div>
