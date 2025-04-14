@@ -51,9 +51,9 @@ Principal Component Analysis is a dimensionality reduction technique that transf
 The RNA expression variance plot shows that the first few principal components capture a relatively small percentage of the overall variance. Even with 40 components, we only reach about 53% of cumulative explained variance. This indicates high dimensionality in the RNA data, with information distributed across many components.
 
 <!-- ![RNA PCA Plot](Image%205.png) -->
-<iframe src="HTML_Assets/pca_RNA.html" width="900" height="700" style="border:none;"></iframe>
+<!-- <iframe src="docs/pca_RNA.html" width="900" height="700" style="border:none;"></iframe> -->
 
-<!-- [View Interactive PCA Plot](HTML_Assets/pca_RNA.html) -->
+[View Interactive PCA Plot](docs/pca_RNA.html)
 
 The interactive PCA plot of RNA expression data shows the first two principal components, with PC1 explaining 8.00% and PC2 explaining 6.69% of the variance. While there's substantial overlap between cancer types, some patterns emerge:
 
