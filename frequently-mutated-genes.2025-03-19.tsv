@@ -1,0 +1,716 @@
+gene_id	symbol	name	cytoband	type	num_cohort_ssm_affected_cases	num_cohort_ssm_cases	cohort_ssm_affected_cases_percentage	num_gdc_ssm_affected_cases	num_gdc_ssm_cases	gdc_ssm_affected_cases_percentage	num_cohort_cnv_cases	num_cohort_cnv_gain_cases	cohort_cnv_gain_cases_percentage	num_cohort_cnv_loss_cases	cohort_cnv_loss_cases_percentage	num_mutations	annotations
+ENSG00000141510	TP53	tumor protein p53	17p13.1	protein_coding	898	1396	64.33	4964	16508	30.07	1522	105	6.90	647	42.51	468	Cancer Gene Census
+ENSG00000181143	MUC16	mucin 16, cell surface associated	19p13.2	protein_coding	601	1396	43.05	2903	16508	17.59	1522	130	8.54	460	30.22	1163	Cancer Gene Census
+ENSG00000164796	CSMD3	CUB and Sushi multiple domains 3	8q23.3	protein_coding	598	1396	42.84	1991	16508	12.06	1522	773	50.79	57	3.75	963	Cancer Gene Census
+ENSG00000168702	LRP1B	LDL receptor related protein 1B	2q22.1, 2q22.2	protein_coding	475	1396	34.03	1784	16508	10.81	1522	370	24.31	113	7.42	738	Cancer Gene Census
+ENSG00000165323	FAT3	FAT atypical cadherin 3	11q14.3	protein_coding	311	1396	22.28	1438	16508	8.71	1522	335	22.01	212	13.93	416	Cancer Gene Census
+ENSG00000147724	FAM135B	family with sequence similarity 135 member B	8q24.23	protein_coding	299	1396	21.42	953	16508	5.77	1522	769	50.53	74	4.86	372	Cancer Gene Census
+ENSG00000040731	CDH10	cadherin 10	5p14.2, 5p14.1	protein_coding	256	1396	18.34	736	16508	4.46	1522	915	60.12	53	3.48	303	Cancer Gene Census
+ENSG00000196159	FAT4	FAT atypical cadherin 4	4q28.1	protein_coding	253	1396	18.12	1444	16508	8.75	1522	88	5.78	546	35.87	301	Cancer Gene Census
+ENSG00000133703	KRAS	KRAS proto-oncogene, GTPase	12p12.1	protein_coding	246	1396	17.62	1763	16508	10.68	1522	515	33.84	125	8.21	26	Cancer Gene Census
+ENSG00000174469	CNTNAP2	contactin associated protein 2	7q35, 7q36.1	protein_coding	216	1396	15.47	819	16508	4.96	1522	504	33.11	146	9.59	259	Cancer Gene Census
+ENSG00000167548	KMT2D	lysine methyltransferase 2D	12q13.12	protein_coding	202	1396	14.47	1336	16508	8.09	1522	363	23.85	144	9.46	231	Cancer Gene Census
+ENSG00000066032	CTNNA2	catenin alpha 2	2p12	protein_coding	193	1396	13.83	670	16508	4.06	1522	474	31.14	63	4.14	223	Cancer Gene Census
+ENSG00000079999	KEAP1	kelch like ECH associated protein 1	19p13.2	protein_coding	192	1396	13.75	376	16508	2.28	1522	144	9.46	457	30.03	176	Cancer Gene Census
+ENSG00000169862	CTNND2	catenin delta 2	5p15.2	protein_coding	187	1396	13.40	677	16508	4.10	1522	948	62.29	47	3.09	215	Cancer Gene Census
+ENSG00000153707	PTPRD	protein tyrosine phosphatase receptor type D	9p24.1, 9p23	protein_coding	178	1396	12.75	767	16508	4.65	1522	186	12.22	666	43.76	223	Cancer Gene Census
+ENSG00000146648	EGFR	epidermal growth factor receptor	7p11.2	protein_coding	171	1396	12.25	660	16508	4.00	1522	659	43.30	87	5.72	83	Cancer Gene Census
+ENSG00000196712	NF1	neurofibromin 1	17q11.2	protein_coding	163	1396	11.68	887	16508	5.37	1522	396	26.02	190	12.48	177	Cancer Gene Census
+ENSG00000083857	FAT1	FAT atypical cadherin 1	4q35.2	protein_coding	159	1396	11.39	1069	16508	6.48	1522	114	7.49	520	34.17	181	Cancer Gene Census
+ENSG00000198173	FAM47C	family with sequence similarity 47 member C	Xp21.1	protein_coding	154	1396	11.03	635	16508	3.85	1522	0	0.00	0	0.00	184	Cancer Gene Census
+ENSG00000168542	COL3A1	collagen type III alpha 1 chain	2q32.2	protein_coding	149	1396	10.67	587	16508	3.56	1522	394	25.89	107	7.03	174	Cancer Gene Census
+ENSG00000196090	PTPRT	protein tyrosine phosphatase receptor type T	20q12, 20q13.11	protein_coding	148	1396	10.60	812	16508	4.92	1522	521	34.23	138	9.07	175	Cancer Gene Census
+ENSG00000198795	ZNF521	zinc finger protein 521	18q11.2	protein_coding	141	1396	10.10	537	16508	3.25	1522	290	19.05	364	23.92	169	Cancer Gene Census
+ENSG00000183454	GRIN2A	glutamate ionotropic receptor NMDA type subunit 2A	16p13.2	protein_coding	139	1396	9.96	776	16508	4.70	1522	353	23.19	223	14.65	161	Cancer Gene Census
+ENSG00000115760	BIRC6	baculoviral IAP repeat containing 6	2p22.3	protein_coding	137	1396	9.81	760	16508	4.60	1522	489	32.13	65	4.27	159	Cancer Gene Census
+ENSG00000055609	KMT2C	lysine methyltransferase 2C	7q36.1	protein_coding	136	1396	9.74	1063	16508	6.44	1522	500	32.85	164	10.78	156	Cancer Gene Census
+ENSG00000152217	SETBP1	SET binding protein 1	18q12.3	protein_coding	134	1396	9.60	534	16508	3.23	1522	198	13.01	503	33.05	151	Cancer Gene Census
+ENSG00000140538	NTRK3	neurotrophic receptor tyrosine kinase 3	15q25.3	protein_coding	131	1396	9.38	506	16508	3.07	1522	239	15.70	334	21.94	141	Cancer Gene Census
+ENSG00000147889	CDKN2A	cyclin dependent kinase inhibitor 2A	9p21.3	protein_coding	131	1396	9.38	578	16508	3.50	1522	124	8.15	805	52.89	96	Cancer Gene Census
+ENSG00000029534	ANK1	ankyrin 1	8p11.21	protein_coding	125	1396	8.95	709	16508	4.29	1522	459	30.16	306	20.11	139	Cancer Gene Census
+ENSG00000044524	EPHA3	EPH receptor A3	3p11.1	protein_coding	125	1396	8.95	526	16508	3.19	1522	214	14.06	459	30.16	142	Cancer Gene Census
+ENSG00000178568	ERBB4	erb-b2 receptor tyrosine kinase 4	2q34	protein_coding	125	1396	8.95	673	16508	4.08	1522	309	20.30	180	11.83	140	Cancer Gene Census
+ENSG00000127329	PTPRB	protein tyrosine phosphatase receptor type B	12q15	protein_coding	122	1396	8.74	633	16508	3.83	1522	437	28.71	111	7.29	144	Cancer Gene Census
+ENSG00000118046	STK11	serine/threonine kinase 11	19p13.3	protein_coding	121	1396	8.67	237	16508	1.44	1522	142	9.33	511	33.57	101	Cancer Gene Census
+ENSG00000185177	ZNF479	zinc finger protein 479	7p11.2	protein_coding	120	1396	8.60	389	16508	2.36	1522	626	41.13	98	6.44	127	Cancer Gene Census
+ENSG00000187323	DCC	DCC netrin 1 receptor	18q21.2	protein_coding	120	1396	8.60	750	16508	4.54	1522	168	11.04	542	35.61	138	Cancer Gene Census
+ENSG00000140836	ZFHX3	zinc finger homeobox 3	16q22.2, 16q22.3	protein_coding	114	1396	8.17	838	16508	5.08	1522	267	17.54	366	24.05	124	Cancer Gene Census
+ENSG00000185008	ROBO2	roundabout guidance receptor 2	3p12.3	protein_coding	114	1396	8.17	670	16508	4.06	1522	96	6.31	651	42.77	120	Cancer Gene Census
+ENSG00000081237	PTPRC	protein tyrosine phosphatase receptor type C	1q31.3, 1q32.1	protein_coding	110	1396	7.88	491	16508	2.97	1522	804	52.83	48	3.15	122	Cancer Gene Census
+ENSG00000149311	ATM	ATM serine/threonine kinase	11q22.3	protein_coding	110	1396	7.88	761	16508	4.61	1522	293	19.25	280	18.40	121	Cancer Gene Census
+ENSG00000173821	RNF213	ring finger protein 213	17q25.3	protein_coding	109	1396	7.81	759	16508	4.60	1522	539	35.41	96	6.31	127	Cancer Gene Census
+ENSG00000079102	RUNX1T1	RUNX1 partner transcriptional co-repressor 1	8q21.3	protein_coding	107	1396	7.66	513	16508	3.11	1522	708	46.52	84	5.52	114	Cancer Gene Census
+ENSG00000127914	AKAP9	A-kinase anchoring protein 9	7q21.2	protein_coding	107	1396	7.66	660	16508	4.00	1522	575	37.78	94	6.18	116	Cancer Gene Census
+ENSG00000128052	KDR	kinase insert domain receptor	4q12	protein_coding	107	1396	7.66	503	16508	3.05	1522	290	19.05	285	18.73	118	Cancer Gene Census
+ENSG00000046889	PREX2	phosphatidylinositol-3,4,5-trisphosphate dependent Rac exchange factor 2	8q13.2	protein_coding	106	1396	7.59	699	16508	4.23	1522	614	40.34	120	7.88	114	Cancer Gene Census
+ENSG00000121879	PIK3CA	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha	3q26.32	protein_coding	105	1396	7.52	1685	16508	10.21	1522	747	49.08	138	9.07	54	Cancer Gene Census
+ENSG00000196367	TRRAP	transformation/transcription domain associated protein	7q22.1	protein_coding	104	1396	7.45	754	16508	4.57	1522	563	36.99	106	6.96	121	Cancer Gene Census
+ENSG00000051341	POLQ	DNA polymerase theta	3q13.33	protein_coding	103	1396	7.38	530	16508	3.21	1522	565	37.12	180	11.83	114	Cancer Gene Census
+ENSG00000182901	RGS7	regulator of G protein signaling 7	1q43	protein_coding	101	1396	7.23	351	16508	2.13	1522	766	50.33	65	4.27	108	Cancer Gene Census
+ENSG00000172915	NBEA	neurobeachin	13q13.3	protein_coding	100	1396	7.16	704	16508	4.26	1522	102	6.70	642	42.18	113	Cancer Gene Census
+ENSG00000005339	CREBBP	CREB binding protein	16p13.3	protein_coding	98	1396	7.02	777	16508	4.71	1522	334	21.94	257	16.89	105	Cancer Gene Census
+ENSG00000196924	FLNA	filamin A	Xq28	protein_coding	98	1396	7.02	590	16508	3.57	1522	0	0.00	0	0.00	114	Cancer Gene Census
+ENSG00000116044	NFE2L2	nuclear factor, erythroid 2 like 2	2q31.2	protein_coding	97	1396	6.95	331	16508	2.01	1522	420	27.60	89	5.85	56	Cancer Gene Census
+ENSG00000145113	MUC4	mucin 4, cell surface associated	3q29	protein_coding	97	1396	6.95	637	16508	3.86	1522	731	48.03	177	11.63	123	Cancer Gene Census
+ENSG00000127616	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4	19p13.2	protein_coding	95	1396	6.81	583	16508	3.53	1522	146	9.59	468	30.75	102	Cancer Gene Census
+ENSG00000148400	NOTCH1	notch receptor 1	9q34.3	protein_coding	95	1396	6.81	812	16508	4.92	1522	192	12.61	467	30.68	104	Cancer Gene Census
+ENSG00000047410	TPR	translocated promoter region, nuclear basket protein	1q31.1	protein_coding	94	1396	6.73	464	16508	2.81	1522	813	53.42	39	2.56	98	Cancer Gene Census
+ENSG00000134853	PDGFRA	platelet derived growth factor receptor alpha	4q12	protein_coding	94	1396	6.73	444	16508	2.69	1522	289	18.99	286	18.79	107	Cancer Gene Census
+ENSG00000148516	ZEB1	zinc finger E-box binding homeobox 1	10p11.22	protein_coding	94	1396	6.73	390	16508	2.36	1522	306	20.11	262	17.21	99	Cancer Gene Census
+ENSG00000133392	MYH11	myosin heavy chain 11	16p13.11	protein_coding	91	1396	6.52	570	16508	3.45	1522	348	22.86	221	14.52	96	Cancer Gene Census
+ENSG00000047936	ROS1	ROS proto-oncogene 1, receptor tyrosine kinase	6q22.1	protein_coding	90	1396	6.45	611	16508	3.70	1522	185	12.16	438	28.78	95	Cancer Gene Census
+ENSG00000184634	MED12	mediator complex subunit 12	Xq13.1	protein_coding	90	1396	6.45	561	16508	3.40	1522	0	0.00	0	0.00	101	Cancer Gene Census
+ENSG00000117713	ARID1A	AT-rich interaction domain 1A	1p36.11	protein_coding	88	1396	6.30	1154	16508	6.99	1522	199	13.07	321	21.09	94	Cancer Gene Census
+ENSG00000153201	RANBP2	RAN binding protein 2	2q13	protein_coding	87	1396	6.23	533	16508	3.23	1522	417	27.40	66	4.34	93	Cancer Gene Census
+ENSG00000198354	DCAF12L2	DDB1 and CUL4 associated factor 12 like 2	Xq25	protein_coding	87	1396	6.23	394	16508	2.39	1522	0	0.00	0	0.00	92	Cancer Gene Census
+ENSG00000171862	PTEN	phosphatase and tensin homolog	10q23.31	protein_coding	83	1396	5.95	1268	16508	7.68	1522	98	6.44	252	16.56	73	Cancer Gene Census
+ENSG00000118058	KMT2A	lysine methyltransferase 2A	11q23.3	protein_coding	81	1396	5.80	686	16508	4.16	1522	296	19.45	277	18.20	91	Cancer Gene Census
+ENSG00000140937	CDH11	cadherin 11	16q21	protein_coding	81	1396	5.80	493	16508	2.99	1522	275	18.07	346	22.73	86	Cancer Gene Census
+ENSG00000168685	IL7R	interleukin 7 receptor	5p13.2	protein_coding	81	1396	5.80	328	16508	1.99	1522	906	59.53	48	3.15	82	Cancer Gene Census
+ENSG00000198822	GRM3	glutamate metabotropic receptor 3	7q21.11, 7q21.12	protein_coding	81	1396	5.80	532	16508	3.22	1522	561	36.86	104	6.83	85	Cancer Gene Census
+ENSG00000139618	BRCA2	BRCA2 DNA repair associated	13q13.1	protein_coding	80	1396	5.73	569	16508	3.45	1522	110	7.23	641	42.12	88	Cancer Gene Census
+ENSG00000139687	RB1	RB transcriptional corepressor 1	13q14.2	protein_coding	80	1396	5.73	573	16508	3.47	1522	101	6.64	648	42.58	82	Cancer Gene Census
+ENSG00000171735	CAMTA1	calmodulin binding transcription activator 1	1p36.31, 1p36.23	protein_coding	80	1396	5.73	482	16508	2.92	1522	219	14.39	338	22.21	85	Cancer Gene Census
+ENSG00000049618	ARID1B	AT-rich interaction domain 1B	6q25.3	protein_coding	79	1396	5.66	479	16508	2.90	1522	188	12.35	441	28.98	87	Cancer Gene Census
+ENSG00000196498	NCOR2	nuclear receptor corepressor 2	12q24.31	protein_coding	79	1396	5.66	514	16508	3.11	1522	317	20.83	220	14.45	87	Cancer Gene Census
+ENSG00000157764	BRAF	B-Raf proto-oncogene, serine/threonine kinase	7q34	protein_coding	78	1396	5.59	964	16508	5.84	1522	509	33.44	137	9.00	53	Cancer Gene Census
+ENSG00000171094	ALK	ALK receptor tyrosine kinase	2p23.2, 2p23.1	protein_coding	78	1396	5.59	491	16508	2.97	1522	489	32.13	66	4.34	91	Cancer Gene Census
+ENSG00000181555	SETD2	SET domain containing 2, histone lysine methyltransferase	3p21.31	protein_coding	77	1396	5.52	636	16508	3.85	1522	55	3.61	680	44.68	87	Cancer Gene Census
+ENSG00000182872	RBM10	RNA binding motif protein 10	Xp11.3	protein_coding	77	1396	5.52	316	16508	1.91	1522	0	0.00	0	0.00	79	Cancer Gene Census
+ENSG00000067842	ATP2B3	ATPase plasma membrane Ca2+ transporting 3	Xq28	protein_coding	76	1396	5.44	429	16508	2.60	1522	0	0.00	0	0.00	83	Cancer Gene Census
+ENSG00000104517	UBR5	ubiquitin protein ligase E3 component n-recognin 5	8q22.3	protein_coding	75	1396	5.37	560	16508	3.39	1522	757	49.74	57	3.75	85	Cancer Gene Census
+ENSG00000134982	APC	APC regulator of WNT signaling pathway	5q22.2	protein_coding	75	1396	5.37	1082	16508	6.55	1522	161	10.58	560	36.79	79	Cancer Gene Census
+ENSG00000139219	COL2A1	collagen type II alpha 1 chain	12q13.11	protein_coding	75	1396	5.37	410	16508	2.48	1522	361	23.72	147	9.66	80	Cancer Gene Census
+ENSG00000166501	PRKCB	protein kinase C beta	16p12.2, 16p12.1	protein_coding	75	1396	5.37	348	16508	2.11	1522	346	22.73	206	13.53	82	Cancer Gene Census
+ENSG00000085185	BCORL1	BCL6 corepressor like 1	Xq26.1	protein_coding	74	1396	5.30	517	16508	3.13	1522	0	0.00	0	0.00	83	Cancer Gene Census
+ENSG00000184675	AMER1	APC membrane recruitment protein 1	Xq11.2	protein_coding	74	1396	5.30	431	16508	2.61	1522	0	0.00	0	0.00	84	Cancer Gene Census
+ENSG00000085224	ATRX	ATRX chromatin remodeler	Xq21.1	protein_coding	73	1396	5.23	817	16508	4.95	1522	0	0.00	0	0.00	83	Cancer Gene Census
+ENSG00000100345	MYH9	myosin heavy chain 9	22q12.3	protein_coding	73	1396	5.23	484	16508	2.93	1522	290	19.05	346	22.73	77	Cancer Gene Census
+ENSG00000133124	IRS4	insulin receptor substrate 4	Xq22.3	protein_coding	71	1396	5.09	459	16508	2.78	1522	0	0.00	0	0.00	82	Cancer Gene Census
+ENSG00000135333	EPHA7	EPH receptor A7	6q16.1	protein_coding	71	1396	5.09	422	16508	2.56	1522	193	12.68	436	28.65	78	Cancer Gene Census
+ENSG00000179399	GPC5	glypican 5	13q31.3	protein_coding	71	1396	5.09	337	16508	2.04	1522	193	12.68	532	34.95	72	Cancer Gene Census
+ENSG00000175054	ATR	ATR serine/threonine kinase	3q23	protein_coding	70	1396	5.01	496	16508	3.00	1522	665	43.69	148	9.72	78	Cancer Gene Census
+ENSG00000189079	ARID2	AT-rich interaction domain 2	12q12	protein_coding	70	1396	5.01	529	16508	3.20	1522	363	23.85	154	10.12	77	Cancer Gene Census
+ENSG00000122778	KIAA1549	KIAA1549	7q34	protein_coding	69	1396	4.94	469	16508	2.84	1522	511	33.57	138	9.07	79	Cancer Gene Census
+ENSG00000184937	WT1	WT1 transcription factor	11p13	protein_coding	69	1396	4.94	329	16508	1.99	1522	254	16.69	247	16.23	78	Cancer Gene Census
+ENSG00000165671	NSD1	nuclear receptor binding SET domain protein 1	5q35.3	protein_coding	68	1396	4.87	562	16508	3.40	1522	242	15.90	477	31.34	72	Cancer Gene Census
+ENSG00000177084	POLE	DNA polymerase epsilon, catalytic subunit	12q24.33	protein_coding	68	1396	4.87	492	16508	2.98	1522	145	9.53	144	9.46	73	Cancer Gene Census
+ENSG00000178104	PDE4DIP	phosphodiesterase 4D interacting protein	1q21.2	protein_coding	67	1396	4.80	436	16508	2.64	1522	600	39.42	63	4.14	70	Cancer Gene Census
+ENSG00000198286	CARD11	caspase recruitment domain family member 11	7p22.2	protein_coding	67	1396	4.80	485	16508	2.94	1522	688	45.20	105	6.90	69	Cancer Gene Census
+ENSG00000065526	SPEN	spen family transcriptional repressor	1p36.21, 1p36.13	protein_coding	66	1396	4.73	629	16508	3.81	1522	220	14.45	316	20.76	81	Cancer Gene Census
+ENSG00000119866	BCL11A	BAF chromatin remodeling complex subunit BCL11A	2p16.1	protein_coding	66	1396	4.73	384	16508	2.33	1522	520	34.17	50	3.29	73	Cancer Gene Census
+ENSG00000144218	AFF3	AF4/FMR2 family member 3	2q11.2	protein_coding	65	1396	4.66	443	16508	2.68	1522	436	28.65	60	3.94	67	Cancer Gene Census
+ENSG00000157168	NRG1	neuregulin 1	8p12	protein_coding	65	1396	4.66	449	16508	2.72	1522	198	13.01	635	41.72	65	Cancer Gene Census
+ENSG00000165731	RET	ret proto-oncogene	10q11.21	protein_coding	65	1396	4.66	365	16508	2.21	1522	264	17.35	293	19.25	67	Cancer Gene Census
+ENSG00000134250	NOTCH2	notch receptor 2	1p12	protein_coding	62	1396	4.44	431	16508	2.61	1522	292	19.19	297	19.51	68	Cancer Gene Census
+ENSG00000138336	TET1	tet methylcytosine dioxygenase 1	10q21.3	protein_coding	62	1396	4.44	452	16508	2.74	1522	212	13.93	352	23.13	68	Cancer Gene Census
+ENSG00000165238	WNK2	WNK lysine deficient protein kinase 2	9q22.31	protein_coding	62	1396	4.44	464	16508	2.81	1522	173	11.37	481	31.60	66	Cancer Gene Census
+ENSG00000257923	CUX1	cut like homeobox 1	7q22.1	protein_coding	62	1396	4.44	491	16508	2.97	1522	549	36.07	115	7.56	67	Cancer Gene Census
+ENSG00000012048	BRCA1	BRCA1 DNA repair associated	17q21.31	protein_coding	61	1396	4.37	367	16508	2.22	1522	448	29.43	143	9.40	64	Cancer Gene Census
+ENSG00000198793	MTOR	mechanistic target of rapamycin kinase	1p36.22	protein_coding	61	1396	4.37	517	16508	3.13	1522	215	14.13	325	21.35	68	Cancer Gene Census
+ENSG00000037280	FLT4	fms related receptor tyrosine kinase 4	5q35.3	protein_coding	60	1396	4.30	477	16508	2.89	1522	240	15.77	483	31.73	66	Cancer Gene Census
+ENSG00000111087	GLI1	GLI family zinc finger 1	12q13.3	protein_coding	60	1396	4.30	328	16508	1.99	1522	399	26.22	119	7.82	66	Cancer Gene Census
+ENSG00000126012	KDM5C	lysine demethylase 5C	Xp11.22	protein_coding	58	1396	4.15	387	16508	2.34	1522	0	0.00	0	0.00	61	Cancer Gene Census
+ENSG00000122025	FLT3	fms related receptor tyrosine kinase 3	13q12.2	protein_coding	56	1396	4.01	440	16508	2.67	1522	106	6.96	642	42.18	59	Cancer Gene Census
+ENSG00000140396	NCOA2	nuclear receptor coactivator 2	8q13.3	protein_coding	56	1396	4.01	308	16508	1.87	1522	632	41.52	117	7.69	58	Cancer Gene Census
+ENSG00000141027	NCOR1	nuclear receptor corepressor 1	17p12, 17p11.2	protein_coding	56	1396	4.01	538	16508	3.26	1522	127	8.34	591	38.83	59	Cancer Gene Census
+ENSG00000163629	PTPN13	protein tyrosine phosphatase non-receptor type 13	4q21.3	protein_coding	56	1396	4.01	445	16508	2.70	1522	147	9.66	394	25.89	57	Cancer Gene Census
+ENSG00000103522	IL21R	interleukin 21 receptor	16p12.1	protein_coding	55	1396	3.94	241	16508	1.46	1522	333	21.88	196	12.88	56	Cancer Gene Census
+ENSG00000176571	CNBD1	cyclic nucleotide binding domain containing 1	8q21.3	protein_coding	55	1396	3.94	245	16508	1.48	1522	685	45.01	92	6.04	59	Cancer Gene Census
+ENSG00000041982	TNC	tenascin C	9q33.1	protein_coding	54	1396	3.87	528	16508	3.20	1522	196	12.88	453	29.76	60	Cancer Gene Census
+ENSG00000163518	FCRL4	Fc receptor like 4	1q23.1	protein_coding	54	1396	3.87	225	16508	1.36	1522	839	55.12	35	2.30	55	Cancer Gene Census
+ENSG00000171456	ASXL1	ASXL transcriptional regulator 1	20q11.21	protein_coding	54	1396	3.87	405	16508	2.45	1522	585	38.44	85	5.58	61	Cancer Gene Census
+ENSG00000183337	BCOR	BCL6 corepressor	Xp11.4	protein_coding	54	1396	3.87	492	16508	2.98	1522	0	0.00	0	0.00	54	Cancer Gene Census
+ENSG00000036257	CUL3	cullin 3	2q36.2	protein_coding	53	1396	3.80	250	16508	1.51	1522	271	17.81	216	14.19	54	Cancer Gene Census
+ENSG00000087460	GNAS	GNAS complex locus	20q13.32	protein_coding	53	1396	3.80	369	16508	2.24	1522	567	37.25	116	7.62	49	Cancer Gene Census
+ENSG00000129204	USP6	ubiquitin specific peptidase 6	17p13.2	protein_coding	53	1396	3.80	348	16508	2.11	1522	107	7.03	649	42.64	55	Cancer Gene Census
+ENSG00000184507	NUTM1	NUT midline carcinoma family member 1	15q14	protein_coding	53	1396	3.80	311	16508	1.88	1522	155	10.18	483	31.73	56	Cancer Gene Census
+ENSG00000198400	NTRK1	neurotrophic receptor tyrosine kinase 1	1q23.1	protein_coding	53	1396	3.80	261	16508	1.58	1522	839	55.12	37	2.43	56	Cancer Gene Census
+ENSG00000135111	TBX3	T-box transcription factor 3	12q24.21	protein_coding	52	1396	3.72	282	16508	1.71	1522	305	20.04	222	14.59	54	Cancer Gene Census
+ENSG00000073614	KDM5A	lysine demethylase 5A	12p13.33	protein_coding	51	1396	3.65	360	16508	2.18	1522	245	16.10	95	6.24	52	Cancer Gene Census
+ENSG00000147050	KDM6A	lysine demethylase 6A	Xp11.3	protein_coding	51	1396	3.65	472	16508	2.86	1522	0	0.00	0	0.00	51	Cancer Gene Census
+ENSG00000152894	PTPRK	protein tyrosine phosphatase receptor type K	6q22.33	protein_coding	51	1396	3.65	420	16508	2.54	1522	203	13.34	420	27.60	52	Cancer Gene Census
+ENSG00000113360	DROSHA	drosha ribonuclease III	5p13.3	protein_coding	50	1396	3.58	282	16508	1.71	1522	908	59.66	46	3.02	53	Cancer Gene Census
+ENSG00000127152	BCL11B	BAF chromatin remodeling complex subunit BCL11B	14q32.2	protein_coding	50	1396	3.58	352	16508	2.13	1522	296	19.45	299	19.65	55	Cancer Gene Census
+ENSG00000162733	DDR2	discoidin domain receptor tyrosine kinase 2	1q23.3	protein_coding	50	1396	3.58	269	16508	1.63	1522	841	55.26	30	1.97	53	Cancer Gene Census
+ENSG00000010671	BTK	Bruton tyrosine kinase	Xq22.1	protein_coding	49	1396	3.51	243	16508	1.47	1522	0	0.00	0	0.00	53	Cancer Gene Census
+ENSG00000115524	SF3B1	splicing factor 3b subunit 1	2q33.1	protein_coding	49	1396	3.51	366	16508	2.22	1522	376	24.70	112	7.36	49	Cancer Gene Census
+ENSG00000147130	ZMYM3	zinc finger MYM-type containing 3	Xq13.1	protein_coding	49	1396	3.51	323	16508	1.96	1522	0	0.00	0	0.00	50	Cancer Gene Census
+ENSG00000157388	CACNA1D	calcium voltage-gated channel subunit alpha1 D	3p21.1	protein_coding	49	1396	3.51	512	16508	3.10	1522	57	3.75	683	44.88	51	Cancer Gene Census
+ENSG00000078403	MLLT10	MLLT10 histone lysine methyltransferase DOT1L cofactor	10p12.31	protein_coding	48	1396	3.44	238	16508	1.44	1522	278	18.27	269	17.67	48	Cancer Gene Census
+ENSG00000083168	KAT6A	lysine acetyltransferase 6A	8p11.21	protein_coding	48	1396	3.44	419	16508	2.54	1522	468	30.75	298	19.58	53	Cancer Gene Census
+ENSG00000101115	SALL4	spalt like transcription factor 4	20q13.2	protein_coding	48	1396	3.44	374	16508	2.27	1522	539	35.41	124	8.15	52	Cancer Gene Census
+ENSG00000110713	NUP98	nucleoporin 98 and 96 precursor	11p15.4	protein_coding	48	1396	3.44	327	16508	1.98	1522	177	11.63	352	23.13	50	Cancer Gene Census
+ENSG00000143970	ASXL2	ASXL transcriptional regulator 2	2p23.3	protein_coding	48	1396	3.44	343	16508	2.08	1522	474	31.14	69	4.53	50	Cancer Gene Census
+ENSG00000165409	TSHR	thyroid stimulating hormone receptor	14q31.1	protein_coding	48	1396	3.44	244	16508	1.48	1522	318	20.89	301	19.78	53	Cancer Gene Census
+ENSG00000182162	P2RY8	P2Y receptor family member 8	Xp22.33	protein_coding	48	1396	3.44	232	16508	1.41	1522	0	0.00	0	0.00	50	Cancer Gene Census
+ENSG00000084676	NCOA1	nuclear receptor coactivator 1	2p23.3	protein_coding	47	1396	3.37	288	16508	1.74	1522	474	31.14	70	4.60	48	Cancer Gene Census
+ENSG00000100393	EP300	E1A binding protein p300	22q13.2	protein_coding	47	1396	3.37	567	16508	3.43	1522	300	19.71	350	23.00	47	Cancer Gene Census
+ENSG00000103197	TSC2	TSC complex subunit 2	16p13.3	protein_coding	47	1396	3.37	389	16508	2.36	1522	343	22.54	257	16.89	48	Cancer Gene Census
+ENSG00000109670	FBXW7	F-box and WD repeat domain containing 7	4q31.3	protein_coding	47	1396	3.37	657	16508	3.98	1522	140	9.20	435	28.58	47	Cancer Gene Census
+ENSG00000130396	AFDN	afadin, adherens junction formation factor	6q27	protein_coding	47	1396	3.37	419	16508	2.54	1522	190	12.48	439	28.84	49	Cancer Gene Census
+ENSG00000168769	TET2	tet methylcytosine dioxygenase 2	4q24	protein_coding	47	1396	3.37	335	16508	2.03	1522	131	8.61	417	27.40	48	Cancer Gene Census
+ENSG00000100503	NIN	ninein	14q22.1	protein_coding	46	1396	3.30	385	16508	2.33	1522	387	25.43	250	16.43	48	Cancer Gene Census
+ENSG00000108821	COL1A1	collagen type I alpha 1 chain	17q21.33	protein_coding	46	1396	3.30	384	16508	2.33	1522	517	33.97	89	5.85	50	Cancer Gene Census
+ENSG00000111642	CHD4	chromodomain helicase DNA binding protein 4	12p13.31	protein_coding	46	1396	3.30	556	16508	3.37	1522	454	29.83	184	12.09	52	Cancer Gene Census
+ENSG00000113263	ITK	IL2 inducible T cell kinase	5q33.3	protein_coding	46	1396	3.30	239	16508	1.45	1522	200	13.14	494	32.46	50	Cancer Gene Census
+ENSG00000126883	NUP214	nucleoporin 214	9q34.13	protein_coding	46	1396	3.30	360	16508	2.18	1522	188	12.35	464	30.49	47	Cancer Gene Census
+ENSG00000142611	PRDM16	PR/SET domain 16	1p36.32	protein_coding	46	1396	3.30	380	16508	2.30	1522	232	15.24	340	22.34	50	Cancer Gene Census
+ENSG00000143322	ABL2	ABL proto-oncogene 2, non-receptor tyrosine kinase	1q25.2	protein_coding	46	1396	3.30	299	16508	1.81	1522	806	52.96	41	2.69	46	Cancer Gene Census
+ENSG00000148584	A1CF	APOBEC1 complementation factor	10q11.23	protein_coding	46	1396	3.30	262	16508	1.59	1522	194	12.75	297	19.51	49	Cancer Gene Census
+ENSG00000196914	ARHGEF12	Rho guanine nucleotide exchange factor 12	11q23.3	protein_coding	46	1396	3.30	306	16508	1.85	1522	292	19.19	288	18.92	47	Cancer Gene Census
+ENSG00000197535	MYO5A	myosin VA	15q21.2	protein_coding	46	1396	3.30	366	16508	2.22	1522	189	12.42	434	28.52	46	Cancer Gene Census
+ENSG00000100852	ARHGAP5	Rho GTPase activating protein 5	14q12	protein_coding	45	1396	3.22	360	16508	2.18	1522	445	29.24	224	14.72	48	Cancer Gene Census
+ENSG00000105976	MET	MET proto-oncogene, receptor tyrosine kinase	7q31.2	protein_coding	45	1396	3.22	350	16508	2.12	1522	536	35.22	140	9.20	47	Cancer Gene Census
+ENSG00000119772	DNMT3A	DNA methyltransferase 3 alpha	2p23.3	protein_coding	45	1396	3.22	338	16508	2.05	1522	473	31.08	68	4.47	49	Cancer Gene Census
+ENSG00000137812	KNL1	kinetochore scaffold 1	15q15.1	protein_coding	45	1396	3.22	333	16508	2.02	1522	152	9.99	503	33.05	49	Cancer Gene Census
+ENSG00000156650	KAT6B	lysine acetyltransferase 6B	10q22.2	protein_coding	45	1396	3.22	349	16508	2.11	1522	202	13.27	347	22.80	45	Cancer Gene Census
+ENSG00000180611	MB21D2	Mab-21 domain containing 2	3q29	protein_coding	45	1396	3.22	198	16508	1.20	1522	734	48.23	164	10.78	33	Cancer Gene Census
+ENSG00000185811	IKZF1	IKAROS family zinc finger 1	7p12.2	protein_coding	45	1396	3.22	338	16508	2.05	1522	646	42.44	104	6.83	47	Cancer Gene Census
+ENSG00000196220	SRGAP3	SLIT-ROBO Rho GTPase activating protein 3	3p25.3	protein_coding	45	1396	3.22	298	16508	1.81	1522	95	6.24	616	40.47	47	Cancer Gene Census
+ENSG00000101972	STAG2	stromal antigen 2	Xq25	protein_coding	44	1396	3.15	400	16508	2.42	1522	0	0.00	0	0.00	48	Cancer Gene Census
+ENSG00000131023	LATS1	large tumor suppressor kinase 1	6q25.1	protein_coding	44	1396	3.15	285	16508	1.73	1522	189	12.42	439	28.84	48	Cancer Gene Census
+ENSG00000151702	FLI1	Fli-1 proto-oncogene, ETS transcription factor	11q24.3	protein_coding	44	1396	3.15	201	16508	1.22	1522	296	19.45	293	19.25	46	Cancer Gene Census
+ENSG00000164330	EBF1	EBF transcription factor 1	5q33.3	protein_coding	44	1396	3.15	269	16508	1.63	1522	210	13.80	489	32.13	47	Cancer Gene Census
+ENSG00000167258	CDK12	cyclin dependent kinase 12	17q12	protein_coding	44	1396	3.15	371	16508	2.25	1522	461	30.29	141	9.26	47	Cancer Gene Census
+ENSG00000169184	MN1	MN1 proto-oncogene, transcriptional regulator	22q12.1	protein_coding	44	1396	3.15	294	16508	1.78	1522	322	21.16	325	21.35	49	Cancer Gene Census
+ENSG00000197157	SND1	staphylococcal nuclease and tudor domain containing 1	7q32.1	protein_coding	44	1396	3.15	283	16508	1.71	1522	496	32.59	155	10.18	48	Cancer Gene Census
+ENSG00000107485	GATA3	GATA binding protein 3	10p14	protein_coding	43	1396	3.08	386	16508	2.34	1522	290	19.05	318	20.89	43	Cancer Gene Census
+ENSG00000114423	CBLB	Cbl proto-oncogene B	3q13.11	protein_coding	43	1396	3.08	270	16508	1.64	1522	537	35.28	182	11.96	44	Cancer Gene Census
+ENSG00000116731	PRDM2	PR/SET domain 2	1p36.21	protein_coding	43	1396	3.08	333	16508	2.02	1522	213	13.99	325	21.35	45	Cancer Gene Census
+ENSG00000182578	CSF1R	colony stimulating factor 1 receptor	5q32	protein_coding	43	1396	3.08	247	16508	1.50	1522	190	12.48	503	33.05	43	Cancer Gene Census
+ENSG00000185920	PTCH1	patched 1	9q22.32	protein_coding	43	1396	3.08	388	16508	2.35	1522	172	11.30	478	31.41	46	Cancer Gene Census
+ENSG00000100697	DICER1	dicer 1, ribonuclease III	14q32.13	protein_coding	42	1396	3.01	386	16508	2.34	1522	282	18.53	303	19.91	43	Cancer Gene Census
+ENSG00000119397	CNTRL	centriolin	9q33.2	protein_coding	42	1396	3.01	351	16508	2.13	1522	195	12.81	453	29.76	43	Cancer Gene Census
+ENSG00000123473	STIL	STIL centriolar assembly protein	1p33	protein_coding	42	1396	3.01	247	16508	1.50	1522	240	15.77	258	16.95	42	Cancer Gene Census
+ENSG00000186174	BCL9L	BCL9 like	11q23.3	protein_coding	42	1396	3.01	348	16508	2.11	1522	296	19.45	273	17.94	42	Cancer Gene Census
+ENSG00000101096	NFATC2	nuclear factor of activated T cells 2	20q13.2	protein_coding	41	1396	2.94	327	16508	1.98	1522	539	35.41	116	7.62	42	Cancer Gene Census
+ENSG00000136492	BRIP1	BRCA1 interacting protein C-terminal helicase 1	17q23.2	protein_coding	41	1396	2.94	275	16508	1.67	1522	553	36.33	87	5.72	42	Cancer Gene Census
+ENSG00000141646	SMAD4	SMAD family member 4	18q21.2	protein_coding	41	1396	2.94	386	16508	2.34	1522	166	10.91	542	35.61	42	Cancer Gene Census
+ENSG00000070371	CLTCL1	clathrin heavy chain like 1	22q11.21	protein_coding	40	1396	2.87	315	16508	1.91	1522	344	22.60	287	18.86	42	Cancer Gene Census
+ENSG00000141968	VAV1	vav guanine nucleotide exchange factor 1	19p13.3	protein_coding	40	1396	2.87	277	16508	1.68	1522	136	8.94	486	31.93	40	Cancer Gene Census
+ENSG00000147548	NSD3	nuclear receptor binding SET domain protein 3	8p11.23	protein_coding	40	1396	2.87	297	16508	1.80	1522	449	29.50	373	24.51	40	Cancer Gene Census
+ENSG00000165392	WRN	WRN RecQ like helicase	8p12	protein_coding	40	1396	2.87	264	16508	1.60	1522	174	11.43	662	43.50	42	Cancer Gene Census
+ENSG00000029363	BCLAF1	BCL2 associated transcription factor 1	6q23.3	protein_coding	39	1396	2.79	242	16508	1.47	1522	208	13.67	409	26.87	38	Cancer Gene Census
+ENSG00000091831	ESR1	estrogen receptor 1	6q25.1, 6q25.2	protein_coding	39	1396	2.79	228	16508	1.38	1522	187	12.29	431	28.32	40	Cancer Gene Census
+ENSG00000113594	LIFR	LIF receptor subunit alpha	5p13.1	protein_coding	39	1396	2.79	330	16508	2.00	1522	901	59.20	50	3.29	39	Cancer Gene Census
+ENSG00000164398	ACSL6	acyl-CoA synthetase long chain family member 6	5q31.1	protein_coding	39	1396	2.79	215	16508	1.30	1522	151	9.92	548	36.01	41	Cancer Gene Census
+ENSG00000135903	PAX3	paired box 3	2q36.1	protein_coding	38	1396	2.72	232	16508	1.41	1522	280	18.40	204	13.40	39	Cancer Gene Census
+ENSG00000136167	LCP1	lymphocyte cytosolic protein 1	13q14.13	protein_coding	38	1396	2.72	163	16508	0.99	1522	105	6.90	637	41.85	38	Cancer Gene Census
+ENSG00000169083	AR	androgen receptor	Xq12	protein_coding	38	1396	2.72	343	16508	2.08	1522	0	0.00	0	0.00	38	Cancer Gene Census
+ENSG00000204843	DCTN1	dynactin subunit 1	2p13.1	protein_coding	38	1396	2.72	275	16508	1.67	1522	491	32.26	53	3.48	40	Cancer Gene Census
+ENSG00000051382	PIK3CB	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta	3q22.3	protein_coding	37	1396	2.65	241	16508	1.46	1522	648	42.58	153	10.05	36	Cancer Gene Census
+ENSG00000066468	FGFR2	fibroblast growth factor receptor 2	10q26.13	protein_coding	37	1396	2.65	376	16508	2.28	1522	183	12.02	383	25.16	36	Cancer Gene Census
+ENSG00000073282	TP63	tumor protein p63	3q28	protein_coding	37	1396	2.65	402	16508	2.44	1522	742	48.75	161	10.58	37	Cancer Gene Census
+ENSG00000085276	MECOM	MDS1 and EVI1 complex locus	3q26.2	protein_coding	37	1396	2.65	444	16508	2.69	1522	797	52.37	106	6.96	41	Cancer Gene Census
+ENSG00000113721	PDGFRB	platelet derived growth factor receptor beta	5q32	protein_coding	37	1396	2.65	264	16508	1.60	1522	190	12.48	503	33.05	38	Cancer Gene Census
+ENSG00000157404	KIT	KIT proto-oncogene, receptor tyrosine kinase	4q12	protein_coding	37	1396	2.65	338	16508	2.05	1522	290	19.05	282	18.53	39	Cancer Gene Census
+ENSG00000179583	CIITA	class II major histocompatibility complex transactivator	16p13.13	protein_coding	37	1396	2.65	321	16508	1.94	1522	370	24.31	212	13.93	39	Cancer Gene Census
+ENSG00000057657	PRDM1	PR/SET domain 1	6q21	protein_coding	36	1396	2.58	272	16508	1.65	1522	178	11.70	442	29.04	36	Cancer Gene Census
+ENSG00000078177	N4BP2	NEDD4 binding protein 2	4p14	protein_coding	36	1396	2.58	305	16508	1.85	1522	221	14.52	396	26.02	38	Cancer Gene Census
+ENSG00000079112	CDH17	cadherin 17	8q22.1	protein_coding	36	1396	2.58	264	16508	1.60	1522	724	47.57	76	4.99	40	Cancer Gene Census
+ENSG00000141736	ERBB2	erb-b2 receptor tyrosine kinase 2	17q12	protein_coding	36	1396	2.58	355	16508	2.15	1522	464	30.49	140	9.20	30	Cancer Gene Census
+ENSG00000196531	NACA	nascent polypeptide associated complex subunit alpha	12q13.3	protein_coding	36	1396	2.58	341	16508	2.07	1522	390	25.62	125	8.21	41	Cancer Gene Census
+ENSG00000083093	PALB2	partner and localizer of BRCA2	16p12.2	protein_coding	35	1396	2.51	234	16508	1.42	1522	342	22.47	207	13.60	37	Cancer Gene Census
+ENSG00000083799	CYLD	CYLD lysine 63 deubiquitinase	16q12.1	protein_coding	35	1396	2.51	242	16508	1.47	1522	279	18.33	329	21.62	38	Cancer Gene Census
+ENSG00000096968	JAK2	Janus kinase 2	9p24.1	protein_coding	35	1396	2.51	291	16508	1.76	1522	201	13.21	647	42.51	36	Cancer Gene Census
+ENSG00000100815	TRIP11	thyroid hormone receptor interactor 11	14q32.12	protein_coding	35	1396	2.51	315	16508	1.91	1522	338	22.21	295	19.38	36	Cancer Gene Census
+ENSG00000105568	PPP2R1A	protein phosphatase 2 scaffold subunit Aalpha	19q13.41	protein_coding	35	1396	2.51	288	16508	1.74	1522	271	17.81	310	20.37	34	Cancer Gene Census
+ENSG00000105639	JAK3	Janus kinase 3	19p13.11	protein_coding	35	1396	2.51	281	16508	1.70	1522	199	13.07	402	26.41	38	Cancer Gene Census
+ENSG00000114861	FOXP1	forkhead box P1	3p13	protein_coding	35	1396	2.51	282	16508	1.71	1522	86	5.65	663	43.56	35	Cancer Gene Census
+ENSG00000137497	NUMA1	nuclear mitotic apparatus protein 1	11q13.4	protein_coding	35	1396	2.51	358	16508	2.17	1522	381	25.03	160	10.51	35	Cancer Gene Census
+ENSG00000163520	FBLN2	fibulin 2	3p25.1	protein_coding	35	1396	2.51	285	16508	1.73	1522	92	6.04	629	41.33	35	Cancer Gene Census
+ENSG00000164362	TERT	telomerase reverse transcriptase	5p15.33	protein_coding	35	1396	2.51	258	16508	1.56	1522	966	63.47	45	2.96	38	Cancer Gene Census
+ENSG00000186716	BCR	BCR activator of RhoGEF and GTPase	22q11.23	protein_coding	35	1396	2.51	275	16508	1.67	1522	342	22.47	309	20.30	37	Cancer Gene Census
+ENSG00000048471	SNX29	sorting nexin 29	16p13.13, 16p13.12	protein_coding	34	1396	2.44	220	16508	1.33	1522	362	23.78	219	14.39	34	Cancer Gene Census
+ENSG00000073803	MAP3K13	mitogen-activated protein kinase kinase kinase 13	3q27.2	protein_coding	34	1396	2.44	250	16508	1.51	1522	744	48.88	150	9.86	34	Cancer Gene Census
+ENSG00000082805	ERC1	ELKS/RAB6-interacting/CAST family member 1	12p13.33	protein_coding	34	1396	2.44	229	16508	1.39	1522	461	30.29	177	11.63	35	Cancer Gene Census
+ENSG00000104728	ARHGEF10	Rho guanine nucleotide exchange factor 10	8p23.3	protein_coding	34	1396	2.44	318	16508	1.93	1522	174	11.43	682	44.81	35	Cancer Gene Census
+ENSG00000127946	HIP1	huntingtin interacting protein 1	7q11.23	protein_coding	34	1396	2.44	227	16508	1.38	1522	527	34.63	120	7.88	38	Cancer Gene Census
+ENSG00000065361	ERBB3	erb-b2 receptor tyrosine kinase 3	12q13.2	protein_coding	33	1396	2.36	381	16508	2.31	1522	395	25.95	127	8.34	33	Cancer Gene Census
+ENSG00000074964	ARHGEF10L	Rho guanine nucleotide exchange factor 10 like	1p36.13	protein_coding	33	1396	2.36	276	16508	1.67	1522	199	13.07	321	21.09	33	Cancer Gene Census
+ENSG00000099949	LZTR1	leucine zipper like transcription regulator 1	22q11.21	protein_coding	33	1396	2.36	276	16508	1.67	1522	366	24.05	288	18.92	34	Cancer Gene Census
+ENSG00000141367	CLTC	clathrin heavy chain	17q23.1	protein_coding	33	1396	2.36	301	16508	1.82	1522	544	35.74	90	5.91	34	Cancer Gene Census
+ENSG00000184384	MAML2	mastermind like transcriptional coactivator 2	11q21	protein_coding	33	1396	2.36	256	16508	1.55	1522	339	22.27	222	14.59	33	Cancer Gene Census
+ENSG00000009709	PAX7	paired box 7	1p36.13	protein_coding	32	1396	2.29	201	16508	1.22	1522	200	13.14	327	21.48	33	Cancer Gene Census
+ENSG00000064933	PMS1	PMS1 homolog 1, mismatch repair system component	2q32.2	protein_coding	32	1396	2.29	183	16508	1.11	1522	389	25.56	105	6.90	32	Cancer Gene Census
+ENSG00000103126	AXIN1	axin 1	16p13.3	protein_coding	32	1396	2.29	244	16508	1.48	1522	196	12.88	125	8.21	34	Cancer Gene Census
+ENSG00000119535	CSF3R	colony stimulating factor 3 receptor	1p34.3	protein_coding	32	1396	2.29	243	16508	1.47	1522	235	15.44	242	15.90	33	Cancer Gene Census
+ENSG00000122779	TRIM24	tripartite motif containing 24	7q33, 7q34	protein_coding	32	1396	2.29	236	16508	1.43	1522	510	33.51	140	9.20	33	Cancer Gene Census
+ENSG00000128602	SMO	smoothened, frizzled class receptor	7q32.1	protein_coding	32	1396	2.29	199	16508	1.21	1522	503	33.05	147	9.66	33	Cancer Gene Census
+ENSG00000138376	BARD1	BRCA1 associated RING domain 1	2q35	protein_coding	32	1396	2.29	194	16508	1.18	1522	291	19.12	196	12.88	32	Cancer Gene Census
+ENSG00000168036	CTNNB1	catenin beta 1	3p22.1	protein_coding	32	1396	2.29	548	16508	3.32	1522	73	4.80	650	42.71	25	Cancer Gene Census
+ENSG00000173575	CHD2	chromodomain helicase DNA binding protein 2	15q26.1	protein_coding	32	1396	2.29	355	16508	2.15	1522	296	19.45	336	22.08	32	Cancer Gene Census
+ENSG00000179094	PER1	period circadian regulator 1	17p13.1	protein_coding	32	1396	2.29	243	16508	1.47	1522	107	7.03	650	42.71	32	Cancer Gene Census
+ENSG00000198053	SIRPA	signal regulatory protein alpha	20p13	protein_coding	32	1396	2.29	145	16508	0.88	1522	469	30.81	221	14.52	33	Cancer Gene Census
+ENSG00000198604	BAZ1A	bromodomain adjacent to zinc finger domain 1A	14q13.1, 14q13.2	protein_coding	32	1396	2.29	270	16508	1.64	1522	483	31.73	215	14.13	32	Cancer Gene Census
+ENSG00000118007	STAG1	stromal antigen 1	3q22.3	protein_coding	31	1396	2.22	297	16508	1.80	1522	631	41.46	156	10.25	32	Cancer Gene Census
+ENSG00000118513	MYB	MYB proto-oncogene, transcription factor	6q23.3	protein_coding	31	1396	2.22	209	16508	1.27	1522	212	13.93	412	27.07	31	Cancer Gene Census
+ENSG00000130779	CLIP1	CAP-Gly domain containing linker protein 1	12q24.31	protein_coding	31	1396	2.22	266	16508	1.61	1522	317	20.83	228	14.98	32	Cancer Gene Census
+ENSG00000130844	ZNF331	zinc finger protein 331	19q13.42	protein_coding	31	1396	2.22	208	16508	1.26	1522	277	18.20	318	20.89	31	Cancer Gene Census
+ENSG00000150457	LATS2	large tumor suppressor kinase 2	13q12.11	protein_coding	31	1396	2.22	260	16508	1.57	1522	94	6.18	653	42.90	31	Cancer Gene Census
+ENSG00000157765	SLC34A2	solute carrier family 34 member 2	4p15.2	protein_coding	31	1396	2.22	258	16508	1.56	1522	198	13.01	423	27.79	31	Cancer Gene Census
+ENSG00000073792	IGF2BP2	insulin like growth factor 2 mRNA binding protein 2	3q27.2	protein_coding	30	1396	2.15	185	16508	1.12	1522	738	48.49	149	9.79	30	Cancer Gene Census
+ENSG00000091483	FH	fumarate hydratase	1q43	protein_coding	30	1396	2.15	130	16508	0.79	1522	767	50.39	59	3.88	31	Cancer Gene Census
+ENSG00000095015	MAP3K1	mitogen-activated protein kinase kinase kinase 1	5q11.2	protein_coding	30	1396	2.15	385	16508	2.33	1522	223	14.65	505	33.18	31	Cancer Gene Census
+ENSG00000107929	LARP4B	La ribonucleoprotein 4B	10p15.3	protein_coding	30	1396	2.15	268	16508	1.62	1522	279	18.33	355	23.32	31	Cancer Gene Census
+ENSG00000112175	BMP5	bone morphogenetic protein 5	6p12.1	protein_coding	30	1396	2.15	262	16508	1.59	1522	422	27.73	151	9.92	30	Cancer Gene Census
+ENSG00000120457	KCNJ5	potassium inwardly rectifying channel subfamily J member 5	11q24.3	protein_coding	30	1396	2.15	160	16508	0.97	1522	293	19.25	295	19.38	31	Cancer Gene Census
+ENSG00000128513	POT1	protection of telomeres 1	7q31.33	protein_coding	30	1396	2.15	208	16508	1.26	1522	503	33.05	158	10.38	33	Cancer Gene Census
+ENSG00000138448	ITGAV	integrin subunit alpha V	2q32.1	protein_coding	30	1396	2.15	262	16508	1.59	1522	396	26.02	110	7.23	31	Cancer Gene Census
+ENSG00000139263	LRIG3	leucine rich repeats and immunoglobulin like domains 3	12q14.1	protein_coding	30	1396	2.15	246	16508	1.49	1522	406	26.68	115	7.56	31	Cancer Gene Census
+ENSG00000140464	PML	PML nuclear body scaffold	15q24.1	protein_coding	30	1396	2.15	263	16508	1.59	1522	213	13.99	389	25.56	30	Cancer Gene Census
+ENSG00000147257	GPC3	glypican 3	Xq26.2	protein_coding	30	1396	2.15	158	16508	0.96	1522	0	0.00	0	0.00	30	Cancer Gene Census
+ENSG00000160867	FGFR4	fibroblast growth factor receptor 4	5q35.2	protein_coding	30	1396	2.15	236	16508	1.43	1522	245	16.10	477	31.34	32	Cancer Gene Census
+ENSG00000162775	RBM15	RNA binding motif protein 15	1p13.3	protein_coding	30	1396	2.15	221	16508	1.34	1522	176	11.56	379	24.90	32	Cancer Gene Census
+ENSG00000182866	LCK	LCK proto-oncogene, Src family tyrosine kinase	1p35.2	protein_coding	30	1396	2.15	167	16508	1.01	1522	229	15.05	258	16.95	30	Cancer Gene Census
+ENSG00000185630	PBX1	PBX homeobox 1	1q23.3	protein_coding	30	1396	2.15	184	16508	1.11	1522	828	54.40	37	2.43	30	Cancer Gene Census
+ENSG00000007237	GAS7	growth arrest specific 7	17p13.1	protein_coding	29	1396	2.08	163	16508	0.99	1522	106	6.96	656	43.10	30	Cancer Gene Census
+ENSG00000073578	SDHA	succinate dehydrogenase complex flavoprotein subunit A	5p15.33	protein_coding	29	1396	2.08	191	16508	1.16	1522	502	32.98	23	1.51	29	Cancer Gene Census
+ENSG00000077782	FGFR1	fibroblast growth factor receptor 1	8p11.23	protein_coding	29	1396	2.08	234	16508	1.42	1522	447	29.37	373	24.51	32	Cancer Gene Census
+ENSG00000097007	ABL1	ABL proto-oncogene 1, non-receptor tyrosine kinase	9q34.12	protein_coding	29	1396	2.08	262	16508	1.59	1522	188	12.35	468	30.75	31	Cancer Gene Census
+ENSG00000105221	AKT2	AKT serine/threonine kinase 2	19q13.2	protein_coding	29	1396	2.08	167	16508	1.01	1522	378	24.84	225	14.78	32	Cancer Gene Census
+ENSG00000109906	ZBTB16	zinc finger and BTB domain containing 16	11q23.2	protein_coding	29	1396	2.08	226	16508	1.37	1522	282	18.53	292	19.19	29	Cancer Gene Census
+ENSG00000143379	SETDB1	SET domain bifurcated histone lysine methyltransferase 1	1q21.3	protein_coding	29	1396	2.08	297	16508	1.80	1522	846	55.58	38	2.50	30	Cancer Gene Census
+ENSG00000159784	FAM131B	family with sequence similarity 131 member B	7q34	protein_coding	29	1396	2.08	152	16508	0.92	1522	504	33.11	145	9.53	32	Cancer Gene Census
+ENSG00000015285	WAS	WASP actin nucleation promoting factor	Xp11.23	protein_coding	28	1396	2.01	150	16508	0.91	1522	0	0.00	0	0.00	28	Cancer Gene Census
+ENSG00000072694	FCGR2B	Fc fragment of IgG receptor IIb	1q23.3	protein_coding	28	1396	2.01	96	16508	0.58	1522	843	55.39	32	2.10	27	Cancer Gene Census
+ENSG00000079432	CIC	capicua transcriptional repressor	19q13.2	protein_coding	28	1396	2.01	464	16508	2.81	1522	305	20.04	255	16.75	29	Cancer Gene Census
+ENSG00000113916	BCL6	BCL6 transcription repressor	3q27.3	protein_coding	28	1396	2.01	220	16508	1.33	1522	740	48.62	159	10.45	30	Cancer Gene Census
+ENSG00000115808	STRN	striatin	2p22.2	protein_coding	28	1396	2.01	159	16508	0.96	1522	499	32.79	61	4.01	28	Cancer Gene Census
+ENSG00000126777	KTN1	kinectin 1	14q22.3	protein_coding	28	1396	2.01	214	16508	1.30	1522	361	23.72	263	17.28	30	Cancer Gene Census
+ENSG00000134371	CDC73	cell division cycle 73	1q31.2	protein_coding	28	1396	2.01	183	16508	1.11	1522	801	52.63	48	3.15	28	Cancer Gene Census
+ENSG00000145012	LPP	LIM domain containing preferred translocation partner in lipoma	3q27.3, 3q28	protein_coding	28	1396	2.01	211	16508	1.28	1522	737	48.42	163	10.71	31	Cancer Gene Census
+ENSG00000204713	TRIM27	tripartite motif containing 27	6p22.1	protein_coding	28	1396	2.01	135	16508	0.82	1522	421	27.66	173	11.37	27	Cancer Gene Census
+ENSG00000215301	DDX3X	DEAD-box helicase 3 X-linked	Xp11.4	protein_coding	28	1396	2.01	309	16508	1.87	1522	0	0.00	0	0.00	30	Cancer Gene Census
+ENSG00000286522	H3C2	H3 clustered histone 2	6p22.2	protein_coding	28	1396	2.01	137	16508	0.83	1522	434	28.52	174	11.43	25	Cancer Gene Census
+ENSG00000104320	NBN	nibrin	8q21.3	protein_coding	27	1396	1.93	191	16508	1.16	1522	705	46.32	86	5.65	29	Cancer Gene Census
+ENSG00000116128	BCL9	BCL9 transcription coactivator	1q21.2	protein_coding	27	1396	1.93	340	16508	2.06	1522	631	41.46	49	3.22	27	Cancer Gene Census
+ENSG00000145675	PIK3R1	phosphoinositide-3-kinase regulatory subunit 1	5q13.1	protein_coding	27	1396	1.93	577	16508	3.50	1522	167	10.97	551	36.20	27	Cancer Gene Census
+ENSG00000162434	JAK1	Janus kinase 1	1p31.3	protein_coding	27	1396	1.93	373	16508	2.26	1522	212	13.93	295	19.38	27	Cancer Gene Census
+ENSG00000163513	TGFBR2	transforming growth factor beta receptor 2	3p24.1	protein_coding	27	1396	1.93	252	16508	1.53	1522	74	4.86	642	42.18	30	Cancer Gene Census
+ENSG00000163939	PBRM1	polybromo 1	3p21.1	protein_coding	27	1396	1.93	580	16508	3.51	1522	59	3.88	676	44.42	28	Cancer Gene Census
+ENSG00000171723	GPHN	gephyrin	14q23.3	protein_coding	27	1396	1.93	215	16508	1.30	1522	316	20.76	303	19.91	29	Cancer Gene Census
+ENSG00000172493	AFF1	AF4/FMR2 family member 1	4q21.3, 4q22.1	protein_coding	27	1396	1.93	272	16508	1.65	1522	150	9.86	390	25.62	27	Cancer Gene Census
+ENSG00000198561	CTNND1	catenin delta 1	11q12.1	protein_coding	27	1396	1.93	273	16508	1.65	1522	315	20.70	153	10.05	28	Cancer Gene Census
+ENSG00000049540	ELN	elastin	7q11.23	protein_coding	26	1396	1.86	238	16508	1.44	1522	522	34.30	125	8.21	28	Cancer Gene Census
+ENSG00000104365	IKBKB	inhibitor of nuclear factor kappa B kinase subunit beta	8p11.21	protein_coding	26	1396	1.86	214	16508	1.30	1522	469	30.81	295	19.38	26	Cancer Gene Census
+ENSG00000106462	EZH2	enhancer of zeste 2 polycomb repressive complex 2 subunit	7q36.1	protein_coding	26	1396	1.86	223	16508	1.35	1522	509	33.44	142	9.33	28	Cancer Gene Census
+ENSG00000109685	NSD2	nuclear receptor binding SET domain protein 2	4p16.3	protein_coding	26	1396	1.86	389	16508	2.36	1522	187	12.29	430	28.25	26	Cancer Gene Census
+ENSG00000116132	PRRX1	paired related homeobox 1	1q24.2	protein_coding	26	1396	1.86	163	16508	0.99	1522	823	54.07	33	2.17	26	Cancer Gene Census
+ENSG00000135605	TEC	transient erythroblastopenia of childhood	4p12, 4p11	protein_coding	26	1396	1.86	146	16508	0.88	1522	254	16.69	296	19.45	26	Cancer Gene Census
+ENSG00000138363	ATIC	5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase	2q35	protein_coding	26	1396	1.86	158	16508	0.96	1522	289	18.99	199	13.07	27	Cancer Gene Census
+ENSG00000138795	LEF1	lymphoid enhancer binding factor 1	4q25	protein_coding	26	1396	1.86	133	16508	0.81	1522	138	9.07	415	27.27	27	Cancer Gene Census
+ENSG00000145216	FIP1L1	factor interacting with PAPOLA and CPSF1	4q12	protein_coding	26	1396	1.86	152	16508	0.92	1522	280	18.40	290	19.05	26	Cancer Gene Census
+ENSG00000178105	DDX10	DEAD-box helicase 10	11q22.3	protein_coding	26	1396	1.86	174	16508	1.05	1522	293	19.25	279	18.33	26	Cancer Gene Census
+ENSG00000196092	PAX5	paired box 5	9p13.2	protein_coding	26	1396	1.86	252	16508	1.53	1522	222	14.59	532	34.95	27	Cancer Gene Census
+ENSG00000203734	ECT2L	epithelial cell transforming 2 like	6q24.1	protein_coding	26	1396	1.86	192	16508	1.16	1522	205	13.47	409	26.87	26	Cancer Gene Census
+ENSG00000054118	THRAP3	thyroid hormone receptor associated protein 3	1p34.3	protein_coding	25	1396	1.79	230	16508	1.39	1522	240	15.77	241	15.83	25	Cancer Gene Census
+ENSG00000072364	AFF4	AF4/FMR2 family member 4	5q31.1	protein_coding	25	1396	1.79	241	16508	1.46	1522	153	10.05	551	36.20	26	Cancer Gene Census
+ENSG00000110395	CBL	Cbl proto-oncogene	11q23.3	protein_coding	25	1396	1.79	206	16508	1.25	1522	292	19.19	279	18.33	26	Cancer Gene Census
+ENSG00000121289	CEP89	centrosomal protein 89	19q13.11	protein_coding	25	1396	1.79	178	16508	1.08	1522	410	26.94	194	12.75	26	Cancer Gene Census
+ENSG00000138592	USP8	ubiquitin specific peptidase 8	15q21.2	protein_coding	25	1396	1.79	199	16508	1.21	1522	191	12.55	442	29.04	26	Cancer Gene Census
+ENSG00000152207	CYSLTR2	cysteinyl leukotriene receptor 2	13q14.2	protein_coding	25	1396	1.79	114	16508	0.69	1522	98	6.44	647	42.51	27	Cancer Gene Census
+ENSG00000164754	RAD21	RAD21 cohesin complex component	8q24.11	protein_coding	25	1396	1.79	197	16508	1.19	1522	782	51.38	52	3.42	27	Cancer Gene Census
+ENSG00000165699	TSC1	TSC complex subunit 1	9q34.13	protein_coding	25	1396	1.79	273	16508	1.65	1522	189	12.42	467	30.68	25	Cancer Gene Census
+ENSG00000166710	B2M	beta-2-microglobulin	15q21.1	protein_coding	25	1396	1.79	179	16508	1.08	1522	156	10.25	488	32.06	21	Cancer Gene Census
+ENSG00000168172	HOOK3	hook microtubule tethering protein 3	8p11.21	protein_coding	25	1396	1.79	158	16508	0.96	1522	484	31.80	286	18.79	26	Cancer Gene Census
+ENSG00000182197	EXT1	exostosin glycosyltransferase 1	8q24.11	protein_coding	25	1396	1.79	215	16508	1.30	1522	788	51.77	51	3.35	27	Cancer Gene Census
+ENSG00000183742	MACC1	MET transcriptional regulator MACC1	7p21.1	protein_coding	25	1396	1.79	234	16508	1.42	1522	690	45.34	90	5.91	26	Cancer Gene Census
+ENSG00000102145	GATA1	GATA binding protein 1	Xp11.23	protein_coding	24	1396	1.72	125	16508	0.76	1522	0	0.00	0	0.00	24	Cancer Gene Census
+ENSG00000104408	EIF3E	eukaryotic translation initiation factor 3 subunit E	8q23.1	protein_coding	24	1396	1.72	148	16508	0.90	1522	762	50.07	59	3.88	24	Cancer Gene Census
+ENSG00000118503	TNFAIP3	TNF alpha induced protein 3	6q23.3	protein_coding	24	1396	1.72	178	16508	1.08	1522	202	13.27	412	27.07	24	Cancer Gene Census
+ENSG00000122512	PMS2	PMS1 homolog 2, mismatch repair system component	7p22.1	protein_coding	24	1396	1.72	222	16508	1.34	1522	694	45.60	101	6.64	26	Cancer Gene Census
+ENSG00000125618	PAX8	paired box 8	2q14.1	protein_coding	24	1396	1.72	139	16508	0.84	1522	279	18.33	55	3.61	24	Cancer Gene Census
+ENSG00000131759	RARA	retinoic acid receptor alpha	17q21.2	protein_coding	24	1396	1.72	147	16508	0.89	1522	460	30.22	140	9.20	26	Cancer Gene Census
+ENSG00000138081	FBXO11	F-box protein 11	2p16.3	protein_coding	24	1396	1.72	172	16508	1.04	1522	506	33.25	57	3.75	23	Cancer Gene Census
+ENSG00000139083	ETV6	ETS variant transcription factor 6	12p13.2	protein_coding	24	1396	1.72	233	16508	1.41	1522	429	28.19	198	13.01	24	Cancer Gene Census
+ENSG00000143924	EML4	EMAP like 4	2p21	protein_coding	24	1396	1.72	196	16508	1.19	1522	499	32.79	57	3.75	25	Cancer Gene Census
+ENSG00000167751	KLK2	kallikrein related peptidase 2	19q13.33	protein_coding	24	1396	1.72	97	16508	0.59	1522	262	17.21	316	20.76	24	Cancer Gene Census
+ENSG00000173757	STAT5B	signal transducer and activator of transcription 5B	17q21.2	protein_coding	24	1396	1.72	206	16508	1.25	1522	448	29.43	146	9.59	25	Cancer Gene Census
+ENSG00000179295	PTPN11	protein tyrosine phosphatase non-receptor type 11	12q24.13	protein_coding	24	1396	1.72	341	16508	2.07	1522	315	20.70	206	13.53	24	Cancer Gene Census
+ENSG00000180644	PRF1	perforin 1	10q22.1	protein_coding	24	1396	1.72	172	16508	1.04	1522	196	12.88	351	23.06	24	Cancer Gene Census
+ENSG00000187741	FANCA	FA complementation group A	16q24.3	protein_coding	24	1396	1.72	257	16508	1.56	1522	116	7.62	228	14.98	24	Cancer Gene Census
+ENSG00000062822	POLD1	DNA polymerase delta 1, catalytic subunit	19q13.33	protein_coding	23	1396	1.65	252	16508	1.53	1522	263	17.28	308	20.24	23	Cancer Gene Census
+ENSG00000064012	CASP8	caspase 8	2q33.1	protein_coding	23	1396	1.65	320	16508	1.94	1522	360	23.65	128	8.41	24	Cancer Gene Census
+ENSG00000066455	GOLGA5	golgin A5	14q32.12	protein_coding	23	1396	1.65	146	16508	0.88	1522	334	21.94	295	19.38	23	Cancer Gene Census
+ENSG00000078674	PCM1	pericentriolar material 1	8p22	protein_coding	23	1396	1.65	231	16508	1.40	1522	159	10.45	687	45.14	23	Cancer Gene Census
+ENSG00000106483	SFRP4	secreted frizzled related protein 4	7p14.1	protein_coding	23	1396	1.65	152	16508	0.92	1522	654	42.97	99	6.50	24	Cancer Gene Census
+ENSG00000129152	MYOD1	myogenic differentiation 1	11p15.1	protein_coding	23	1396	1.65	126	16508	0.76	1522	221	14.52	298	19.58	23	Cancer Gene Census
+ENSG00000137265	IRF4	interferon regulatory factor 4	6p25.3	protein_coding	23	1396	1.65	208	16508	1.26	1522	231	15.18	87	5.72	24	Cancer Gene Census
+ENSG00000147065	MSN	moesin	Xq12	protein_coding	23	1396	1.65	177	16508	1.07	1522	0	0.00	0	0.00	23	Cancer Gene Census
+ENSG00000154803	FLCN	folliculin	17p11.2	protein_coding	23	1396	1.65	166	16508	1.01	1522	136	8.94	589	38.70	23	Cancer Gene Census
+ENSG00000168646	AXIN2	axin 2	17q24.1	protein_coding	23	1396	1.65	250	16508	1.51	1522	558	36.66	80	5.26	23	Cancer Gene Census
+ENSG00000169032	MAP2K1	mitogen-activated protein kinase kinase 1	15q22.31	protein_coding	23	1396	1.65	148	16508	0.90	1522	200	13.14	405	26.61	22	Cancer Gene Census
+ENSG00000172175	MALT1	MALT1 paracaspase	18q21.32	protein_coding	23	1396	1.65	142	16508	0.86	1522	171	11.24	534	35.09	23	Cancer Gene Census
+ENSG00000197299	BLM	BLM RecQ like helicase	15q26.1	protein_coding	23	1396	1.65	261	16508	1.58	1522	273	17.94	342	22.47	25	Cancer Gene Census
+ENSG00000204209	DAXX	death domain associated protein	6p21.32	protein_coding	23	1396	1.65	179	16508	1.08	1522	420	27.60	165	10.84	28	Cancer Gene Census
+ENSG00000275023	MLLT6	MLLT6, PHD finger containing	17q12	protein_coding	23	1396	1.65	212	16508	1.28	1522	448	29.43	145	9.53	24	Cancer Gene Census
+ENSG00000005073	HOXA11	homeobox A11	7p15.2	protein_coding	22	1396	1.58	104	16508	0.63	1522	668	43.89	95	6.24	23	Cancer Gene Census
+ENSG00000090659	CD209	CD209 molecule	19p13.2	protein_coding	22	1396	1.58	132	16508	0.80	1522	136	8.94	490	32.19	23	Cancer Gene Census
+ENSG00000096384	HSP90AB1	heat shock protein 90 alpha family class B member 1	6p21.1	protein_coding	22	1396	1.58	201	16508	1.22	1522	432	28.38	150	9.86	22	Cancer Gene Census
+ENSG00000101343	CRNKL1	crooked neck pre-mRNA splicing factor 1	20p11.23	protein_coding	22	1396	1.58	200	16508	1.21	1522	506	33.25	195	12.81	22	Cancer Gene Census
+ENSG00000108375	RNF43	ring finger protein 43	17q22	protein_coding	22	1396	1.58	404	16508	2.45	1522	527	34.63	98	6.44	24	Cancer Gene Census
+ENSG00000110841	PPFIBP1	PPFIA binding protein 1	12p11.23, 12p11.22	protein_coding	22	1396	1.58	194	16508	1.18	1522	493	32.39	132	8.67	22	Cancer Gene Census
+ENSG00000110844	PRPF40B	pre-mRNA processing factor 40 homolog B	12q13.12	protein_coding	22	1396	1.58	201	16508	1.22	1522	357	23.46	147	9.66	23	Cancer Gene Census
+ENSG00000116016	EPAS1	endothelial PAS domain protein 1	2p21	protein_coding	22	1396	1.58	212	16508	1.28	1522	506	33.25	59	3.88	24	Cancer Gene Census
+ENSG00000122566	HNRNPA2B1	heterogeneous nuclear ribonucleoprotein A2/B1	7p15.2	protein_coding	22	1396	1.58	168	16508	1.02	1522	675	44.35	94	6.18	20	Cancer Gene Census
+ENSG00000128191	DGCR8	DGCR8 microprocessor complex subunit	22q11.21	protein_coding	22	1396	1.58	181	16508	1.10	1522	343	22.54	288	18.92	21	Cancer Gene Census
+ENSG00000129993	CBFA2T3	CBFA2/RUNX1 partner transcriptional co-repressor 3	16q24.3	protein_coding	22	1396	1.58	169	16508	1.02	1522	225	14.78	448	29.43	22	Cancer Gene Census
+ENSG00000132170	PPARG	peroxisome proliferator activated receptor gamma	3p25.2	protein_coding	22	1396	1.58	161	16508	0.98	1522	90	5.91	626	41.13	22	Cancer Gene Census
+ENSG00000134323	MYCN	MYCN proto-oncogene, bHLH transcription factor	2p24.3	protein_coding	22	1396	1.58	180	16508	1.09	1522	458	30.09	95	6.24	23	Cancer Gene Census
+ENSG00000135100	HNF1A	HNF1 homeobox A	12q24.31	protein_coding	22	1396	1.58	221	16508	1.34	1522	312	20.50	223	14.65	24	Cancer Gene Census
+ENSG00000139718	SETD1B	SET domain containing 1B, histone lysine methyltransferase	12q24.31	protein_coding	22	1396	1.58	153	16508	0.93	1522	309	20.30	227	14.91	22	Cancer Gene Census
+ENSG00000144554	FANCD2	FA complementation group D2	3p25.3	protein_coding	22	1396	1.58	272	16508	1.65	1522	95	6.24	616	40.47	22	Cancer Gene Census
+ENSG00000147655	RSPO2	R-spondin 2	8q23.1	protein_coding	22	1396	1.58	138	16508	0.84	1522	761	50.00	58	3.81	25	Cancer Gene Census
+ENSG00000151348	EXT2	exostosin glycosyltransferase 2	11p11.2	protein_coding	22	1396	1.58	158	16508	0.96	1522	266	17.48	226	14.85	23	Cancer Gene Census
+ENSG00000153165	RGPD3	RANBP2 like and GRIP domain containing 3	2q12.2	protein_coding	22	1396	1.58	85	16508	0.51	1522	418	27.46	68	4.47	22	Cancer Gene Census
+ENSG00000156970	BUB1B	BUB1 mitotic checkpoint serine/threonine kinase B	15q15.1	protein_coding	22	1396	1.58	169	16508	1.02	1522	149	9.79	495	32.52	22	Cancer Gene Census
+ENSG00000162367	TAL1	TAL bHLH transcription factor 1, erythroid differentiation factor	1p33	protein_coding	22	1396	1.58	109	16508	0.66	1522	240	15.77	253	16.62	21	Cancer Gene Census
+ENSG00000162613	FUBP1	far upstream element binding protein 1	1p31.1	protein_coding	22	1396	1.58	229	16508	1.39	1522	205	13.47	318	20.89	23	Cancer Gene Census
+ENSG00000184481	FOXO4	forkhead box O4	Xq13.1	protein_coding	22	1396	1.58	147	16508	0.89	1522	0	0.00	0	0.00	24	Cancer Gene Census
+ENSG00000205755	CRLF2	cytokine receptor like factor 2	Xp22.33	protein_coding	22	1396	1.58	103	16508	0.62	1522	0	0.00	0	0.00	23	Cancer Gene Census
+ENSG00000067082	KLF6	Kruppel like factor 6	10p15.2	protein_coding	21	1396	1.50	177	16508	1.07	1522	296	19.45	334	21.94	23	Cancer Gene Census
+ENSG00000068078	FGFR3	fibroblast growth factor receptor 3	4p16.3	protein_coding	21	1396	1.50	271	16508	1.64	1522	192	12.61	429	28.19	19	Cancer Gene Census
+ENSG00000072501	SMC1A	structural maintenance of chromosomes 1A	Xp11.22	protein_coding	21	1396	1.50	269	16508	1.63	1522	0	0.00	0	0.00	20	Cancer Gene Census
+ENSG00000085832	EPS15	epidermal growth factor receptor pathway substrate 15	1p32.3	protein_coding	21	1396	1.50	184	16508	1.11	1522	226	14.85	267	17.54	21	Cancer Gene Census
+ENSG00000095002	MSH2	mutS homolog 2	2p21, 2p16.3	protein_coding	21	1396	1.50	206	16508	1.25	1522	504	33.11	57	3.75	23	Cancer Gene Census
+ENSG00000109132	PHOX2B	paired like homeobox 2B	4p13	protein_coding	21	1396	1.50	137	16508	0.83	1522	221	14.52	385	25.30	21	Cancer Gene Census
+ENSG00000110619	CARS1	cysteinyl-tRNA synthetase 1	11p15.4	protein_coding	21	1396	1.50	186	16508	1.13	1522	163	10.71	367	24.11	21	Cancer Gene Census
+ENSG00000116062	MSH6	mutS homolog 6	2p16.3	protein_coding	21	1396	1.50	318	16508	1.93	1522	503	33.05	56	3.68	21	Cancer Gene Census
+ENSG00000119508	NR4A3	nuclear receptor subfamily 4 group A member 3	9q31.1	protein_coding	21	1396	1.50	162	16508	0.98	1522	175	11.50	476	31.27	21	Cancer Gene Census
+ENSG00000140521	POLG	DNA polymerase gamma, catalytic subunit	15q26.1	protein_coding	21	1396	1.50	226	16508	1.37	1522	254	16.69	328	21.55	23	Cancer Gene Census
+ENSG00000141867	BRD4	bromodomain containing 4	19p13.12	protein_coding	21	1396	1.50	265	16508	1.61	1522	178	11.70	429	28.19	22	Cancer Gene Census
+ENSG00000148737	TCF7L2	transcription factor 7 like 2	10q25.2, 10q25.3	protein_coding	21	1396	1.50	301	16508	1.82	1522	181	11.89	381	25.03	21	Cancer Gene Census
+ENSG00000156976	EIF4A2	eukaryotic translation initiation factor 4A2	3q27.3	protein_coding	21	1396	1.50	205	16508	1.24	1522	741	48.69	156	10.25	20	Cancer Gene Census
+ENSG00000163655	GMPS	guanine monophosphate synthase	3q25.31	protein_coding	21	1396	1.50	168	16508	1.02	1522	717	47.11	130	8.54	22	Cancer Gene Census
+ENSG00000163930	BAP1	BRCA1 associated protein 1	3p21.1	protein_coding	21	1396	1.50	333	16508	2.02	1522	58	3.81	677	44.48	24	Cancer Gene Census
+ENSG00000165556	CDX2	caudal type homeobox 2	13q12.2	protein_coding	21	1396	1.50	100	16508	0.61	1522	105	6.90	643	42.25	22	Cancer Gene Census
+ENSG00000175595	ERCC4	ERCC excision repair 4, endonuclease catalytic subunit	16p13.12	protein_coding	21	1396	1.50	198	16508	1.20	1522	357	23.46	220	14.45	22	Cancer Gene Census
+ENSG00000181690	PLAG1	PLAG1 zinc finger	8q12.1	protein_coding	21	1396	1.50	182	16508	1.10	1522	575	37.78	152	9.99	21	Cancer Gene Census
+ENSG00000183579	ZNRF3	zinc and ring finger 3	22q12.1	protein_coding	21	1396	1.50	207	16508	1.25	1522	324	21.29	324	21.29	22	Cancer Gene Census
+ENSG00000197323	TRIM33	tripartite motif containing 33	1p13.2	protein_coding	21	1396	1.50	213	16508	1.29	1522	186	12.22	381	25.03	21	Cancer Gene Census
+ENSG00000076242	MLH1	mutL homolog 1	3p22.2	protein_coding	20	1396	1.43	200	16508	1.21	1522	72	4.73	646	42.44	22	Cancer Gene Census
+ENSG00000100105	PATZ1	POZ/BTB and AT hook containing zinc finger 1	22q12.2	protein_coding	20	1396	1.43	160	16508	0.97	1522	318	20.89	322	21.16	19	Cancer Gene Census
+ENSG00000102034	ELF4	E74 like ETS transcription factor 4	Xq26.1	protein_coding	20	1396	1.43	175	16508	1.06	1522	0	0.00	0	0.00	23	Cancer Gene Census
+ENSG00000106031	HOXA13	homeobox A13	7p15.2	protein_coding	20	1396	1.43	87	16508	0.53	1522	669	43.96	95	6.24	21	Cancer Gene Census
+ENSG00000117020	AKT3	AKT serine/threonine kinase 3	1q43, 1q44	protein_coding	20	1396	1.43	156	16508	0.94	1522	772	50.72	60	3.94	22	Cancer Gene Census
+ENSG00000123388	HOXC11	homeobox C11	12q13.13	protein_coding	20	1396	1.43	93	16508	0.56	1522	372	24.44	136	8.94	20	Cancer Gene Census
+ENSG00000136504	KAT7	lysine acetyltransferase 7	17q21.33	protein_coding	20	1396	1.43	149	16508	0.90	1522	507	33.31	88	5.78	21	Cancer Gene Census
+ENSG00000160271	RALGDS	ral guanine nucleotide dissociation stimulator	9q34.13, 9q34.2	protein_coding	20	1396	1.43	184	16508	1.11	1522	190	12.48	466	30.62	20	Cancer Gene Census
+ENSG00000160789	LMNA	lamin A/C	1q22	protein_coding	20	1396	1.43	156	16508	0.94	1522	850	55.85	35	2.30	21	Cancer Gene Census
+ENSG00000175329	ISX	intestine specific homeobox	22q12.3	protein_coding	20	1396	1.43	109	16508	0.66	1522	296	19.45	345	22.67	19	Cancer Gene Census
+ENSG00000182158	CREB3L2	cAMP responsive element binding protein 3 like 2	7q33	protein_coding	20	1396	1.43	138	16508	0.84	1522	510	33.51	136	8.94	21	Cancer Gene Census
+ENSG00000183765	CHEK2	checkpoint kinase 2	22q12.1	protein_coding	20	1396	1.43	166	16508	1.01	1522	327	21.48	325	21.35	20	Cancer Gene Census
+ENSG00000198900	TOP1	DNA topoisomerase I	20q12	protein_coding	20	1396	1.43	169	16508	1.02	1522	518	34.03	130	8.54	20	Cancer Gene Census
+ENSG00000270647	TAF15	TATA-box binding protein associated factor 15	17q12	protein_coding	20	1396	1.43	155	16508	0.94	1522	420	27.60	161	10.58	21	Cancer Gene Census
+ENSG00000026103	FAS	Fas cell surface death receptor	10q23.31	protein_coding	19	1396	1.36	142	16508	0.86	1522	99	6.50	243	15.97	19	Cancer Gene Census
+ENSG00000068323	TFE3	transcription factor binding to IGHM enhancer 3	Xp11.23	protein_coding	19	1396	1.36	203	16508	1.23	1522	0	0.00	0	0.00	21	Cancer Gene Census
+ENSG00000078399	HOXA9	homeobox A9	7p15.2	protein_coding	19	1396	1.36	79	16508	0.48	1522	668	43.89	95	6.24	21	Cancer Gene Census
+ENSG00000079805	DNM2	dynamin 2	19p13.2	protein_coding	19	1396	1.36	286	16508	1.73	1522	149	9.79	461	30.29	20	Cancer Gene Census
+ENSG00000082898	XPO1	exportin 1	2p15	protein_coding	19	1396	1.36	197	16508	1.19	1522	524	34.43	53	3.48	24	Cancer Gene Census
+ENSG00000104419	NDRG1	N-myc downstream regulated 1	8q24.22	protein_coding	19	1396	1.36	120	16508	0.73	1522	801	52.63	55	3.61	20	Cancer Gene Census
+ENSG00000118515	SGK1	serum/glucocorticoid regulated kinase 1	6q23.2	protein_coding	19	1396	1.36	213	16508	1.29	1522	207	13.60	416	27.33	19	Cancer Gene Census
+ENSG00000121741	ZMYM2	zinc finger MYM-type containing 2	13q12.11	protein_coding	19	1396	1.36	290	16508	1.76	1522	98	6.44	650	42.71	24	Cancer Gene Census
+ENSG00000121966	CXCR4	C-X-C motif chemokine receptor 4	2q22.1	protein_coding	19	1396	1.36	134	16508	0.81	1522	374	24.57	103	6.77	19	Cancer Gene Census
+ENSG00000128487	SPECC1	sperm antigen with calponin homology and coiled-coil domains 1	17p11.2	protein_coding	19	1396	1.36	284	16508	1.72	1522	201	13.21	516	33.90	19	Cancer Gene Census
+ENSG00000128714	HOXD13	homeobox D13	2q31.1	protein_coding	19	1396	1.36	97	16508	0.59	1522	405	26.61	86	5.65	19	Cancer Gene Census
+ENSG00000143437	ARNT	aryl hydrocarbon receptor nuclear translocator	1q21.3	protein_coding	19	1396	1.36	163	16508	0.99	1522	846	55.58	38	2.50	21	Cancer Gene Census
+ENSG00000156076	WIF1	WNT inhibitory factor 1	12q14.3	protein_coding	19	1396	1.36	127	16508	0.77	1522	413	27.14	112	7.36	20	Cancer Gene Census
+ENSG00000160957	RECQL4	RecQ like helicase 4	8q24.3	protein_coding	19	1396	1.36	202	16508	1.22	1522	391	25.69	52	3.42	19	Cancer Gene Census
+ENSG00000163161	ERCC3	ERCC excision repair 3, TFIIH core complex helicase subunit	2q14.3	protein_coding	19	1396	1.36	179	16508	1.08	1522	386	25.36	91	5.98	19	Cancer Gene Census
+ENSG00000187098	MITF	melanocyte inducing transcription factor	3p13	protein_coding	19	1396	1.36	178	16508	1.08	1522	84	5.52	664	43.63	20	Cancer Gene Census
+ENSG00000196588	MRTFA	myocardin related transcription factor A	22q13.1, 22q13.2	protein_coding	19	1396	1.36	205	16508	1.24	1522	303	19.91	347	22.80	22	Cancer Gene Census
+ENSG00000006468	ETV1	ETS variant transcription factor 1	7p21.2	protein_coding	18	1396	1.29	230	16508	1.39	1522	688	45.20	92	6.04	19	Cancer Gene Census
+ENSG00000065559	MAP2K4	mitogen-activated protein kinase kinase 4	17p12	protein_coding	18	1396	1.29	214	16508	1.30	1522	108	7.10	649	42.64	18	Cancer Gene Census
+ENSG00000089280	FUS	FUS RNA binding protein	16p11.2	protein_coding	18	1396	1.29	141	16508	0.85	1522	368	24.18	189	12.42	19	Cancer Gene Census
+ENSG00000124181	PLCG1	phospholipase C gamma 1	20q12	protein_coding	18	1396	1.29	255	16508	1.54	1522	516	33.90	131	8.61	18	Cancer Gene Census
+ENSG00000125354	SEPTIN6	septin 6	Xq24	protein_coding	18	1396	1.29	161	16508	0.98	1522	0	0.00	0	0.00	19	Cancer Gene Census
+ENSG00000125952	MAX	MYC associated factor X	14q23.3	protein_coding	18	1396	1.29	142	16508	0.86	1522	326	21.42	298	19.58	21	Cancer Gene Census
+ENSG00000132781	MUTYH	mutY DNA glycosylase	1p34.1	protein_coding	18	1396	1.29	129	16508	0.78	1522	263	17.28	233	15.31	20	Cancer Gene Census
+ENSG00000136352	NKX2-1	NK2 homeobox 1	14q13.3	protein_coding	18	1396	1.29	106	16508	0.64	1522	511	33.57	203	13.34	19	Cancer Gene Census
+ENSG00000138698	RAP1GDS1	Rap1 GTPase-GDP dissociation stimulator 1	4q23	protein_coding	18	1396	1.29	134	16508	0.81	1522	119	7.82	407	26.74	22	Cancer Gene Census
+ENSG00000140262	TCF12	transcription factor 12	15q21.3	protein_coding	18	1396	1.29	191	16508	1.16	1522	191	12.55	428	28.12	18	Cancer Gene Census
+ENSG00000147403	RPL10	ribosomal protein L10	Xq28	protein_coding	18	1396	1.29	127	16508	0.77	1522	0	0.00	0	0.00	19	Cancer Gene Census
+ENSG00000147862	NFIB	nuclear factor I B	9p23, 9p22.3	protein_coding	18	1396	1.29	164	16508	0.99	1522	177	11.63	669	43.96	18	Cancer Gene Census
+ENSG00000157933	SKI	SKI proto-oncogene	1p36.33, 1p36.32	protein_coding	18	1396	1.29	116	16508	0.70	1522	118	7.75	163	10.71	19	Cancer Gene Census
+ENSG00000163026	WDCP	WD repeat and coiled coil containing	2p23.3	protein_coding	18	1396	1.29	129	16508	0.78	1522	469	30.81	74	4.86	19	Cancer Gene Census
+ENSG00000168411	RFWD3	ring finger and WD repeat domain 3	16q23.1	protein_coding	18	1396	1.29	126	16508	0.76	1522	273	17.94	370	24.31	19	Cancer Gene Census
+ENSG00000168421	RHOH	ras homolog family member H	4p14	protein_coding	18	1396	1.29	83	16508	0.50	1522	223	14.65	392	25.76	18	Cancer Gene Census
+ENSG00000170759	KIF5B	kinesin family member 5B	10p11.22	protein_coding	18	1396	1.29	181	16508	1.10	1522	314	20.63	258	16.95	18	Cancer Gene Census
+ENSG00000182944	EWSR1	EWS RNA binding protein 1	22q12.2	protein_coding	18	1396	1.29	163	16508	0.99	1522	320	21.02	325	21.35	18	Cancer Gene Census
+ENSG00000197013	ZNF429	zinc finger protein 429	19p12	protein_coding	18	1396	1.29	199	16508	1.21	1522	208	13.67	380	24.97	18	Cancer Gene Census
+ENSG00000039068	CDH1	cadherin 1	16q22.1	protein_coding	17	1396	1.22	406	16508	2.46	1522	287	18.86	339	22.27	17	Cancer Gene Census
+ENSG00000080824	HSP90AA1	heat shock protein 90 alpha family class A member 1	14q32.31	protein_coding	17	1396	1.22	190	16508	1.15	1522	318	20.89	282	18.53	18	Cancer Gene Census
+ENSG00000100721	TCL1A	TCL1 family AKT coactivator A	14q32.13	protein_coding	17	1396	1.22	72	16508	0.44	1522	287	18.86	305	20.04	19	Cancer Gene Census
+ENSG00000102974	CTCF	CCCTC-binding factor	16q22.1	protein_coding	17	1396	1.22	419	16508	2.54	1522	280	18.40	338	22.21	18	Cancer Gene Census
+ENSG00000115170	ACVR1	activin A receptor type 1	2q24.1	protein_coding	17	1396	1.22	125	16508	0.76	1522	397	26.08	96	6.31	18	Cancer Gene Census
+ENSG00000118689	FOXO3	forkhead box O3	6q21	protein_coding	17	1396	1.22	125	16508	0.76	1522	176	11.56	443	29.11	19	Cancer Gene Census
+ENSG00000121989	ACVR2A	activin A receptor type 2A	2q22.3, 2q23.1	protein_coding	17	1396	1.22	377	16508	2.28	1522	383	25.16	107	7.03	17	Cancer Gene Census
+ENSG00000122406	RPL5	ribosomal protein L5	1p22.1	protein_coding	17	1396	1.22	161	16508	0.98	1522	196	12.88	344	22.60	17	Cancer Gene Census
+ENSG00000128713	HOXD11	homeobox D11	2q31.1	protein_coding	17	1396	1.22	68	16508	0.41	1522	404	26.54	86	5.65	20	Cancer Gene Census
+ENSG00000128944	KNSTRN	kinetochore localized astrin (SPAG5) binding protein	15q15.1	protein_coding	17	1396	1.22	121	16508	0.73	1522	150	9.86	496	32.59	17	Cancer Gene Census
+ENSG00000132906	CASP9	caspase 9	1p36.21	protein_coding	17	1396	1.22	83	16508	0.50	1522	214	14.06	314	20.63	18	Cancer Gene Census
+ENSG00000135363	LMO2	LIM domain only 2	11p13	protein_coding	17	1396	1.22	80	16508	0.48	1522	256	16.82	249	16.36	17	Cancer Gene Census
+ENSG00000141380	SS18	SS18 subunit of BAF chromatin remodeling complex	18q11.2	protein_coding	17	1396	1.22	83	16508	0.50	1522	281	18.46	379	24.90	18	Cancer Gene Census
+ENSG00000152942	RAD17	RAD17 checkpoint clamp loader component	5q13.2	protein_coding	17	1396	1.22	126	16508	0.76	1522	168	11.04	551	36.20	17	Cancer Gene Census
+ENSG00000153944	MSI2	musashi RNA binding protein 2	17q22	protein_coding	17	1396	1.22	119	16508	0.72	1522	522	34.30	102	6.70	17	Cancer Gene Census
+ENSG00000164985	PSIP1	PC4 and SFRS1 interacting protein 1	9p22.3	protein_coding	17	1396	1.22	157	16508	0.95	1522	173	11.37	667	43.82	17	Cancer Gene Census
+ENSG00000168610	STAT3	signal transducer and activator of transcription 3	17q21.2	protein_coding	17	1396	1.22	215	16508	1.30	1522	450	29.57	147	9.66	17	Cancer Gene Census
+ENSG00000178691	SUZ12	SUZ12 polycomb repressive complex 2 subunit	17q11.2	protein_coding	17	1396	1.22	148	16508	0.90	1522	413	27.14	174	11.43	17	Cancer Gene Census
+ENSG00000184640	SEPTIN9	septin 9	17q25.3	protein_coding	17	1396	1.22	185	16508	1.12	1522	544	35.74	91	5.98	18	Cancer Gene Census
+ENSG00000184702	SEPTIN5	septin 5	22q11.21	protein_coding	17	1396	1.22	116	16508	0.70	1522	342	22.47	289	18.99	18	Cancer Gene Census
+ENSG00000257103	LSM14A	LSM14A mRNA processing body assembly factor	19q13.11	protein_coding	17	1396	1.22	118	16508	0.71	1522	416	27.33	188	12.35	17	Cancer Gene Census
+ENSG00000088038	CNOT3	CCR4-NOT transcription complex subunit 3	19q13.42	protein_coding	16	1396	1.15	220	16508	1.33	1522	279	18.33	295	19.38	16	Cancer Gene Census
+ENSG00000123364	HOXC13	homeobox C13	12q13.13	protein_coding	16	1396	1.15	105	16508	0.64	1522	370	24.31	137	9.00	16	Cancer Gene Census
+ENSG00000145819	ARHGAP26	Rho GTPase activating protein 26	5q31.3	protein_coding	16	1396	1.15	204	16508	1.24	1522	185	12.16	508	33.38	17	Cancer Gene Census
+ENSG00000157554	ERG	ETS transcription factor ERG	21q22.2	protein_coding	16	1396	1.15	217	16508	1.31	1522	228	14.98	390	25.62	16	Cancer Gene Census
+ENSG00000169696	ASPSCR1	ASPSCR1 tether for SLC2A4, UBX domain containing	17q25.3	protein_coding	16	1396	1.15	139	16508	0.84	1522	528	34.69	110	7.23	16	Cancer Gene Census
+ENSG00000175387	SMAD2	SMAD family member 2	18q21.1	protein_coding	16	1396	1.15	176	16508	1.07	1522	187	12.29	524	34.43	16	Cancer Gene Census
+ENSG00000177565	TBL1XR1	TBL1X receptor 1	3q26.32	protein_coding	16	1396	1.15	194	16508	1.18	1522	753	49.47	129	8.48	17	Cancer Gene Census
+ENSG00000178053	MLF1	myeloid leukemia factor 1	3q25.32	protein_coding	16	1396	1.15	96	16508	0.58	1522	717	47.11	132	8.67	17	Cancer Gene Census
+ENSG00000178562	CD28	CD28 molecule	2q33.2	protein_coding	16	1396	1.15	73	16508	0.44	1522	349	22.93	134	8.80	15	Cancer Gene Census
+ENSG00000179348	GATA2	GATA binding protein 2	3q21.3	protein_coding	16	1396	1.15	130	16508	0.79	1522	579	38.04	173	11.37	17	Cancer Gene Census
+ENSG00000187239	FNBP1	formin binding protein 1	9q34.11	protein_coding	16	1396	1.15	141	16508	0.85	1522	188	12.35	465	30.55	17	Cancer Gene Census
+ENSG00000198625	MDM4	MDM4 regulator of p53	1q32.1	protein_coding	16	1396	1.15	119	16508	0.72	1522	810	53.22	40	2.63	16	Cancer Gene Census
+ENSG00000033030	ZCCHC8	zinc finger CCHC-type containing 8	12q24.31	protein_coding	15	1396	1.07	143	16508	0.87	1522	317	20.83	228	14.98	14	Cancer Gene Census
+ENSG00000105173	CCNE1	cyclin E1	19q12	protein_coding	15	1396	1.07	113	16508	0.68	1522	413	27.14	185	12.16	17	Cancer Gene Census
+ENSG00000107779	BMPR1A	bone morphogenetic protein receptor type 1A	10q23.2	protein_coding	15	1396	1.07	116	16508	0.70	1522	170	11.17	399	26.22	15	Cancer Gene Census
+ENSG00000108924	HLF	HLF transcription factor, PAR bZIP family member	17q22	protein_coding	15	1396	1.07	107	16508	0.65	1522	517	33.97	96	6.31	15	Cancer Gene Census
+ENSG00000112531	QKI	QKI, KH domain containing RNA binding	6q26	protein_coding	15	1396	1.07	193	16508	1.17	1522	192	12.61	441	28.98	16	Cancer Gene Census
+ENSG00000122642	FKBP9	FKBP prolyl isomerase 9	7p14.3	protein_coding	15	1396	1.07	153	16508	0.93	1522	668	43.89	93	6.11	15	Cancer Gene Census
+ENSG00000126746	ZNF384	zinc finger protein 384	12p13.31	protein_coding	15	1396	1.07	131	16508	0.79	1522	455	29.89	183	12.02	16	Cancer Gene Census
+ENSG00000132475	H3-3B	H3.3 histone B	17q25.1	protein_coding	15	1396	1.07	74	16508	0.45	1522	559	36.73	80	5.26	16	Cancer Gene Census
+ENSG00000142208	AKT1	AKT serine/threonine kinase 1	14q32.33	protein_coding	15	1396	1.07	176	16508	1.07	1522	320	21.02	295	19.38	12	Cancer Gene Census
+ENSG00000144476	ACKR3	atypical chemokine receptor 3	2q37.3	protein_coding	15	1396	1.07	153	16508	0.93	1522	277	18.20	223	14.65	17	Cancer Gene Census
+ENSG00000150907	FOXO1	forkhead box O1	13q14.11	protein_coding	15	1396	1.07	164	16508	0.99	1522	103	6.77	648	42.58	15	Cancer Gene Census
+ENSG00000154767	XPC	XPC complex subunit, DNA damage recognition and repair factor	3p25.1	protein_coding	15	1396	1.07	144	16508	0.87	1522	90	5.91	628	41.26	15	Cancer Gene Census
+ENSG00000158715	SLC45A3	solute carrier family 45 member 3	1q32.1	protein_coding	15	1396	1.07	137	16508	0.83	1522	802	52.69	41	2.69	17	Cancer Gene Census
+ENSG00000163435	ELF3	E74 like ETS transcription factor 3	1q32.1	protein_coding	15	1396	1.07	176	16508	1.07	1522	802	52.69	43	2.83	16	Cancer Gene Census
+ENSG00000166888	STAT6	signal transducer and activator of transcription 6	12q13.3	protein_coding	15	1396	1.07	166	16508	1.01	1522	388	25.49	123	8.08	15	Cancer Gene Census
+ENSG00000166949	SMAD3	SMAD family member 3	15q22.33	protein_coding	15	1396	1.07	160	16508	0.97	1522	204	13.40	404	26.54	15	Cancer Gene Census
+ENSG00000169564	PCBP1	poly(rC) binding protein 1	2p13.3	protein_coding	15	1396	1.07	120	16508	0.73	1522	493	32.39	54	3.55	15	Cancer Gene Census
+ENSG00000170836	PPM1D	protein phosphatase, Mg2+/Mn2+ dependent 1D	17q23.2	protein_coding	15	1396	1.07	154	16508	0.93	1522	553	36.33	89	5.85	17	Cancer Gene Census
+ENSG00000183770	FOXL2	forkhead box L2	3q22.3	protein_coding	15	1396	1.07	97	16508	0.59	1522	645	42.38	151	9.92	15	Cancer Gene Census
+ENSG00000186575	NF2	neurofibromin 2	22q12.2	protein_coding	15	1396	1.07	198	16508	1.20	1522	325	21.35	321	21.09	15	Cancer Gene Census
+ENSG00000187164	SHTN1	shootin 1	10q25.3	protein_coding	15	1396	1.07	151	16508	0.91	1522	177	11.63	386	25.36	15	Cancer Gene Census
+ENSG00000206503	HLA-A	major histocompatibility complex, class I, A	6p22.1	protein_coding	15	1396	1.07	152	16508	0.92	1522	423	27.79	172	11.30	16	Cancer Gene Census
+ENSG00000213281	NRAS	NRAS proto-oncogene, GTPase	1p13.2	protein_coding	15	1396	1.07	840	16508	5.09	1522	189	12.42	379	24.90	12	Cancer Gene Census
+ENSG00000213672	NCKIPSD	NCK interacting protein with SH3 domain	3p21.31	protein_coding	15	1396	1.07	119	16508	0.72	1522	54	3.55	686	45.07	17	Cancer Gene Census
+ENSG00000244405	ETV5	ETS variant transcription factor 5	3q27.2	protein_coding	15	1396	1.07	161	16508	0.98	1522	744	48.88	156	10.25	15	Cancer Gene Census
+ENSG00000066117	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1	12q13.12	protein_coding	14	1396	1.00	102	16508	0.62	1522	360	23.65	149	9.79	15	Cancer Gene Census
+ENSG00000072274	TFRC	transferrin receptor	3q29	protein_coding	14	1396	1.00	143	16508	0.87	1522	733	48.16	173	11.37	14	Cancer Gene Census
+ENSG00000076685	NT5C2	5'-nucleotidase, cytosolic II	10q24.32, 10q24.33	protein_coding	14	1396	1.00	110	16508	0.67	1522	171	11.24	400	26.28	14	Cancer Gene Census
+ENSG00000078061	ARAF	A-Raf proto-oncogene, serine/threonine kinase	Xp11.3	protein_coding	14	1396	1.00	179	16508	1.08	1522	0	0.00	0	0.00	15	Cancer Gene Census
+ENSG00000100644	HIF1A	hypoxia inducible factor 1 subunit alpha	14q23.2	protein_coding	14	1396	1.00	177	16508	1.07	1522	348	22.86	285	18.73	14	Cancer Gene Census
+ENSG00000105662	CRTC1	CREB regulated transcription coactivator 1	19p13.11	protein_coding	14	1396	1.00	158	16508	0.96	1522	211	13.86	388	25.49	15	Cancer Gene Census
+ENSG00000111275	ALDH2	aldehyde dehydrogenase 2 family member	12q24.12	protein_coding	14	1396	1.00	128	16508	0.78	1522	321	21.09	209	13.73	15	Cancer Gene Census
+ENSG00000117400	MPL	MPL proto-oncogene, thrombopoietin receptor	1p34.2	protein_coding	14	1396	1.00	148	16508	0.90	1522	272	17.87	227	14.91	13	Cancer Gene Census
+ENSG00000130675	MNX1	motor neuron and pancreas homeobox 1	7q36.3	protein_coding	14	1396	1.00	78	16508	0.47	1522	489	32.13	170	11.17	15	Cancer Gene Census
+ENSG00000133895	MEN1	menin 1	11q13.1	protein_coding	14	1396	1.00	163	16508	0.99	1522	331	21.75	158	10.38	14	Cancer Gene Census
+ENSG00000138115	CYP2C8	cytochrome P450 family 2 subfamily C member 8	10q23.33	protein_coding	14	1396	1.00	176	16508	1.07	1522	154	10.12	394	25.89	14	Cancer Gene Census
+ENSG00000139163	ETNK1	ethanolamine kinase 1	12p12.1	protein_coding	14	1396	1.00	109	16508	0.66	1522	492	32.33	147	9.66	17	Cancer Gene Census
+ENSG00000143549	TPM3	tropomyosin 3	1q21.3	protein_coding	14	1396	1.00	116	16508	0.70	1522	861	56.57	32	2.10	15	Cancer Gene Census
+ENSG00000143556	S100A7	S100 calcium binding protein A7	1q21.3	protein_coding	14	1396	1.00	55	16508	0.33	1522	857	56.31	32	2.10	14	Cancer Gene Census
+ENSG00000149948	HMGA2	high mobility group AT-hook 2	12q14.3	protein_coding	14	1396	1.00	81	16508	0.49	1522	419	27.53	113	7.42	14	Cancer Gene Census
+ENSG00000170577	SIX2	SIX homeobox 2	2p21	protein_coding	14	1396	1.00	110	16508	0.67	1522	505	33.18	60	3.94	14	Cancer Gene Census
+ENSG00000171843	MLLT3	MLLT3 super elongation complex subunit	9p21.3	protein_coding	14	1396	1.00	132	16508	0.80	1522	161	10.58	688	45.20	14	Cancer Gene Census
+ENSG00000172409	CLP1	cleavage factor polyribonucleotide kinase subunit 1	11q12.1	protein_coding	14	1396	1.00	94	16508	0.57	1522	320	21.02	152	9.99	13	Cancer Gene Census
+ENSG00000177606	JUN	Jun proto-oncogene, AP-1 transcription factor subunit	1p32.1	protein_coding	14	1396	1.00	86	16508	0.52	1522	222	14.59	286	18.79	14	Cancer Gene Census
+ENSG00000023445	BIRC3	baculoviral IAP repeat containing 3	11q22.2	protein_coding	13	1396	0.93	151	16508	0.91	1522	337	22.14	231	15.18	15	Cancer Gene Census
+ENSG00000070756	PABPC1	poly(A) binding protein cytoplasmic 1	8q22.3	protein_coding	13	1396	0.93	128	16508	0.78	1522	752	49.41	59	3.88	14	Cancer Gene Census
+ENSG00000073921	PICALM	phosphatidylinositol binding clathrin assembly protein	11q14.2	protein_coding	13	1396	0.93	143	16508	0.87	1522	365	23.98	194	12.75	13	Cancer Gene Census
+ENSG00000074266	EED	embryonic ectoderm development	11q14.2	protein_coding	13	1396	0.93	118	16508	0.71	1522	365	23.98	192	12.61	13	Cancer Gene Census
+ENSG00000099956	SMARCB1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1	22q11.23	protein_coding	13	1396	0.93	149	16508	0.90	1522	346	22.73	312	20.50	13	Cancer Gene Census
+ENSG00000104884	ERCC2	ERCC excision repair 2, TFIIH core complex helicase subunit	19q13.32	protein_coding	13	1396	0.93	196	16508	1.19	1522	294	19.32	270	17.74	15	Cancer Gene Census
+ENSG00000105810	CDK6	cyclin dependent kinase 6	7q21.2	protein_coding	13	1396	0.93	94	16508	0.57	1522	575	37.78	94	6.18	14	Cancer Gene Census
+ENSG00000107882	SUFU	SUFU negative regulator of hedgehog signaling	10q24.32	protein_coding	13	1396	0.93	127	16508	0.77	1522	172	11.30	394	25.89	13	Cancer Gene Census
+ENSG00000108091	CCDC6	coiled-coil domain containing 6	10q21.2	protein_coding	13	1396	0.93	134	16508	0.81	1522	210	13.80	339	22.27	13	Cancer Gene Census
+ENSG00000111679	PTPN6	protein tyrosine phosphatase non-receptor type 6	12p13.31	protein_coding	13	1396	0.93	153	16508	0.93	1522	454	29.83	180	11.83	13	Cancer Gene Census
+ENSG00000116560	SFPQ	splicing factor proline and glutamine rich	1p34.3	protein_coding	13	1396	0.93	116	16508	0.70	1522	227	14.91	242	15.90	14	Cancer Gene Census
+ENSG00000126778	SIX1	SIX homeobox 1	14q23.1	protein_coding	13	1396	0.93	104	16508	0.63	1522	347	22.80	283	18.59	13	Cancer Gene Census
+ENSG00000135679	MDM2	MDM2 proto-oncogene	12q15	protein_coding	13	1396	0.93	111	16508	0.67	1522	452	29.70	106	6.96	13	Cancer Gene Census
+ENSG00000159216	RUNX1	RUNX family transcription factor 1	21q22.12	protein_coding	13	1396	0.93	271	16508	1.64	1522	223	14.65	385	25.30	13	Cancer Gene Census
+ENSG00000163902	RPN1	ribophorin I	3q21.3	protein_coding	13	1396	0.93	97	16508	0.59	1522	576	37.84	172	11.30	14	Cancer Gene Census
+ENSG00000174775	HRAS	HRas proto-oncogene, GTPase	11p15.5	protein_coding	13	1396	0.93	163	16508	0.99	1522	168	11.04	383	25.16	10	Cancer Gene Census
+ENSG00000181449	SOX2	SRY-box transcription factor 2	3q26.33	protein_coding	13	1396	0.93	114	16508	0.69	1522	748	49.15	144	9.46	14	Cancer Gene Census
+ENSG00000183161	FANCF	FA complementation group F	11p14.3	protein_coding	13	1396	0.93	85	16508	0.51	1522	230	15.11	267	17.54	13	Cancer Gene Census
+ENSG00000221829	FANCG	FA complementation group G	9p13.3	protein_coding	13	1396	0.93	114	16508	0.69	1522	256	16.82	480	31.54	13	Cancer Gene Census
+ENSG00000007312	CD79B	CD79b molecule	17q23.3	protein_coding	12	1396	0.86	68	16508	0.41	1522	561	36.86	80	5.26	13	Cancer Gene Census
+ENSG00000018408	WWTR1	WW domain containing transcription regulator 1	3q25.1	protein_coding	12	1396	0.86	95	16508	0.58	1522	702	46.12	134	8.80	12	Cancer Gene Census
+ENSG00000077150	NFKB2	nuclear factor kappa B subunit 2	10q24.32	protein_coding	12	1396	0.86	159	16508	0.96	1522	171	11.24	394	25.89	12	Cancer Gene Census
+ENSG00000087088	BAX	BCL2 associated X, apoptosis regulator	19q13.33	protein_coding	12	1396	0.86	78	16508	0.47	1522	251	16.49	316	20.76	12	Cancer Gene Census
+ENSG00000100030	MAPK1	mitogen-activated protein kinase 1	22q11.22	protein_coding	12	1396	0.86	94	16508	0.57	1522	354	23.26	301	19.78	12	Cancer Gene Census
+ENSG00000108654	DDX5	DEAD-box helicase 5	17q23.3	protein_coding	12	1396	0.86	164	16508	0.99	1522	564	37.06	77	5.06	12	Cancer Gene Census
+ENSG00000131653	TRAF7	TNF receptor associated factor 7	16p13.3	protein_coding	12	1396	0.86	152	16508	0.92	1522	341	22.40	258	16.95	13	Cancer Gene Census
+ENSG00000132155	RAF1	Raf-1 proto-oncogene, serine/threonine kinase	3p25.2	protein_coding	12	1396	0.86	144	16508	0.87	1522	91	5.98	622	40.87	12	Cancer Gene Census
+ENSG00000136826	KLF4	Kruppel like factor 4	9q31.2	protein_coding	12	1396	0.86	119	16508	0.72	1522	189	12.42	457	30.03	12	Cancer Gene Census
+ENSG00000138413	IDH1	isocitrate dehydrogenase (NADP(+)) 1	2q34	protein_coding	12	1396	0.86	600	16508	3.63	1522	324	21.29	157	10.32	13	Cancer Gene Census
+ENSG00000140577	CRTC3	CREB regulated transcription coactivator 3	15q26.1	protein_coding	12	1396	0.86	132	16508	0.80	1522	275	18.07	341	22.40	11	Cancer Gene Census
+ENSG00000169925	BRD3	bromodomain containing 3	9q34.2	protein_coding	12	1396	0.86	188	16508	1.14	1522	189	12.42	468	30.75	13	Cancer Gene Census
+ENSG00000178573	MAF	MAF bZIP transcription factor	16q23.2	protein_coding	12	1396	0.86	113	16508	0.68	1522	245	16.10	412	27.07	12	Cancer Gene Census
+ENSG00000179218	CALR	calreticulin	19p13.13	protein_coding	12	1396	0.86	95	16508	0.58	1522	156	10.25	464	30.49	13	Cancer Gene Census
+ENSG00000182185	RAD51B	RAD51 paralog B	14q24.1	protein_coding	12	1396	0.86	78	16508	0.47	1522	322	21.16	306	20.11	12	Cancer Gene Census
+ENSG00000182511	FES	FES proto-oncogene, tyrosine kinase	15q26.1	protein_coding	12	1396	0.86	163	16508	0.99	1522	277	18.20	342	22.47	14	Cancer Gene Census
+ENSG00000184402	SS18L1	SS18L1 subunit of BAF chromatin remodeling complex	20q13.33	protein_coding	12	1396	0.86	93	16508	0.56	1522	561	36.86	118	7.75	13	Cancer Gene Census
+ENSG00000029725	RABEP1	rabaptin, RAB GTPase binding effector protein 1	17p13.2	protein_coding	11	1396	0.79	149	16508	0.90	1522	108	7.10	649	42.64	11	Cancer Gene Census
+ENSG00000100311	PDGFB	platelet derived growth factor subunit B	22q13.1	protein_coding	11	1396	0.79	85	16508	0.51	1522	302	19.84	339	22.27	11	Cancer Gene Census
+ENSG00000105656	ELL	elongation factor for RNA polymerase II	19p13.11	protein_coding	11	1396	0.79	129	16508	0.78	1522	210	13.80	394	25.89	11	Cancer Gene Census
+ENSG00000110777	POU2AF1	POU class 2 homeobox associating factor 1	11q23.1	protein_coding	11	1396	0.79	89	16508	0.54	1522	295	19.38	273	17.94	12	Cancer Gene Census
+ENSG00000112561	TFEB	transcription factor EB	6p21.1	protein_coding	11	1396	0.79	113	16508	0.68	1522	431	28.32	158	10.38	11	Cancer Gene Census
+ENSG00000118971	CCND2	cyclin D2	12p13.32	protein_coding	11	1396	0.79	101	16508	0.61	1522	451	29.63	185	12.16	11	Cancer Gene Census
+ENSG00000119414	PPP6C	protein phosphatase 6 catalytic subunit	9q33.3	protein_coding	11	1396	0.79	122	16508	0.74	1522	183	12.02	452	29.70	11	Cancer Gene Census
+ENSG00000121067	SPOP	speckle type BTB/POZ protein	17q21.33	protein_coding	11	1396	0.79	207	16508	1.25	1522	508	33.38	90	5.91	14	Cancer Gene Census
+ENSG00000130382	MLLT1	MLLT1 super elongation complex subunit	19p13.3	protein_coding	11	1396	0.79	126	16508	0.76	1522	133	8.74	486	31.93	11	Cancer Gene Census
+ENSG00000132002	DNAJB1	DnaJ heat shock protein family (Hsp40) member B1	19p13.12	protein_coding	11	1396	0.79	68	16508	0.41	1522	167	10.97	444	29.17	11	Cancer Gene Census
+ENSG00000146232	NFKBIE	NFKB inhibitor epsilon	6p21.1	protein_coding	11	1396	0.79	79	16508	0.48	1522	430	28.25	150	9.86	11	Cancer Gene Census
+ENSG00000156531	PHF6	PHD finger protein 6	Xq26.2	protein_coding	11	1396	0.79	152	16508	0.92	1522	0	0.00	0	0.00	11	Cancer Gene Census
+ENSG00000157613	CREB3L1	cAMP responsive element binding protein 3 like 1	11p11.2	protein_coding	11	1396	0.79	102	16508	0.62	1522	274	18.00	207	13.60	11	Cancer Gene Census
+ENSG00000158169	FANCC	FA complementation group C	9q22.32	protein_coding	11	1396	0.79	121	16508	0.73	1522	173	11.37	479	31.47	11	Cancer Gene Census
+ENSG00000158711	ELK4	ETS transcription factor ELK4	1q32.1	protein_coding	11	1396	0.79	93	16508	0.56	1522	802	52.69	42	2.76	13	Cancer Gene Census
+ENSG00000161547	SRSF2	serine and arginine rich splicing factor 2	17q25.1	protein_coding	11	1396	0.79	76	16508	0.46	1522	552	36.27	91	5.98	12	Cancer Gene Census
+ENSG00000163399	ATP1A1	ATPase Na+/K+ transporting subunit alpha 1	1p13.1	protein_coding	11	1396	0.79	194	16508	1.18	1522	201	13.21	383	25.16	11	Cancer Gene Census
+ENSG00000164438	TLX3	T cell leukemia homeobox 3	5q35.1	protein_coding	11	1396	0.79	80	16508	0.48	1522	232	15.24	485	31.87	11	Cancer Gene Census
+ENSG00000165025	SYK	spleen associated tyrosine kinase	9q22.2	protein_coding	11	1396	0.79	178	16508	1.08	1522	163	10.71	481	31.60	11	Cancer Gene Census
+ENSG00000185499	MUC1	mucin 1, cell surface associated	1q22	protein_coding	11	1396	0.79	83	16508	0.50	1522	862	56.64	31	2.04	11	Cancer Gene Census
+ENSG00000266412	NCOA4	nuclear receptor coactivator 4	10q11.22	protein_coding	11	1396	0.79	117	16508	0.71	1522	226	14.85	315	20.70	11	Cancer Gene Census
+ENSG00000276180	H4C9	H4 clustered histone 9	6p22.1	protein_coding	11	1396	0.79	76	16508	0.46	1522	420	27.60	173	11.37	12	Cancer Gene Census
+ENSG00000002834	LASP1	LIM and SH3 protein 1	17q12	protein_coding	10	1396	0.72	75	16508	0.45	1522	448	29.43	144	9.46	10	Cancer Gene Census
+ENSG00000047932	GOPC	golgi associated PDZ and coiled-coil motif containing	6q22.1	protein_coding	10	1396	0.72	90	16508	0.55	1522	187	12.29	437	28.71	10	Cancer Gene Census
+ENSG00000100814	CCNB1IP1	cyclin B1 interacting protein 1	14q11.2	protein_coding	10	1396	0.72	72	16508	0.44	1522	386	25.36	252	16.56	10	Cancer Gene Census
+ENSG00000107864	CPEB3	cytoplasmic polyadenylation element binding protein 3	10q23.32	protein_coding	10	1396	0.72	107	16508	0.65	1522	91	5.98	241	15.83	10	Cancer Gene Census
+ENSG00000109471	IL2	interleukin 2	4q27	protein_coding	10	1396	0.72	45	16508	0.27	1522	89	5.85	539	35.41	11	Cancer Gene Census
+ENSG00000110092	CCND1	cyclin D1	11q13.3	protein_coding	10	1396	0.72	143	16508	0.87	1522	457	30.03	120	7.88	11	Cancer Gene Census
+ENSG00000111276	CDKN1B	cyclin dependent kinase inhibitor 1B	12p13.1	protein_coding	10	1396	0.72	125	16508	0.76	1522	423	27.79	203	13.34	10	Cancer Gene Census
+ENSG00000123983	ACSL3	acyl-CoA synthetase long chain family member 3	2q36.1	protein_coding	10	1396	0.72	123	16508	0.75	1522	278	18.27	206	13.53	9	Cancer Gene Census
+ENSG00000126453	BCL2L12	BCL2 like 12	19q13.33	protein_coding	10	1396	0.72	100	16508	0.61	1522	250	16.43	312	20.50	10	Cancer Gene Census
+ENSG00000134086	VHL	von Hippel-Lindau tumor suppressor	3p25.3	protein_coding	10	1396	0.72	394	16508	2.39	1522	95	6.24	617	40.54	10	Cancer Gene Census
+ENSG00000143252	SDHC	succinate dehydrogenase complex subunit C	1q23.3	protein_coding	10	1396	0.72	52	16508	0.31	1522	845	55.52	30	1.97	10	Cancer Gene Census
+ENSG00000146374	RSPO3	R-spondin 3	6q22.33	protein_coding	10	1396	0.72	86	16508	0.52	1522	201	13.21	418	27.46	10	Cancer Gene Census
+ENSG00000153814	JAZF1	JAZF zinc finger 1	7p15.2, 7p15.1	protein_coding	10	1396	0.72	78	16508	0.47	1522	665	43.69	93	6.11	10	Cancer Gene Census
+ENSG00000162924	REL	REL proto-oncogene, NF-kB subunit	2p16.1	protein_coding	10	1396	0.72	128	16508	0.78	1522	521	34.23	50	3.29	10	Cancer Gene Census
+ENSG00000164683	HEY1	hes related family bHLH transcription factor with YRPW motif 1	8q21.13	protein_coding	10	1396	0.72	76	16508	0.46	1522	687	45.14	101	6.64	11	Cancer Gene Census
+ENSG00000171302	CANT1	calcium activated nucleotidase 1	17q25.3	protein_coding	10	1396	0.72	102	16508	0.62	1522	541	35.55	92	6.04	12	Cancer Gene Census
+ENSG00000171310	CHST11	carbohydrate sulfotransferase 11	12q23.3	protein_coding	10	1396	0.72	127	16508	0.77	1522	314	20.63	201	13.21	10	Cancer Gene Census
+ENSG00000171791	BCL2	BCL2 apoptosis regulator	18q21.33	protein_coding	10	1396	0.72	62	16508	0.38	1522	177	11.63	526	34.56	10	Cancer Gene Census
+ENSG00000176302	FOXR1	forkhead box R1	11q23.3	protein_coding	10	1396	0.72	82	16508	0.50	1522	298	19.58	273	17.94	10	Cancer Gene Census
+ENSG00000179750	APOBEC3B	apolipoprotein B mRNA editing enzyme catalytic subunit 3B	22q13.1	protein_coding	10	1396	0.72	101	16508	0.61	1522	294	19.32	335	22.01	10	Cancer Gene Census
+ENSG00000181163	NPM1	nucleophosmin 1	5q35.1	protein_coding	10	1396	0.72	101	16508	0.61	1522	234	15.37	487	32.00	10	Cancer Gene Census
+ENSG00000184012	TMPRSS2	transmembrane serine protease 2	21q22.3	protein_coding	10	1396	0.72	122	16508	0.74	1522	212	13.93	415	27.27	10	Cancer Gene Census
+ENSG00000187735	TCEA1	transcription elongation factor A1	8q11.23	protein_coding	10	1396	0.72	85	16508	0.51	1522	574	37.71	151	9.92	10	Cancer Gene Census
+ENSG00000197122	SRC	SRC proto-oncogene, non-receptor tyrosine kinase	20q11.23	protein_coding	10	1396	0.72	111	16508	0.67	1522	537	35.28	105	6.90	10	Cancer Gene Census
+ENSG00000204370	SDHD	succinate dehydrogenase complex subunit D	11q23.1	protein_coding	10	1396	0.72	41	16508	0.25	1522	285	18.73	285	18.73	10	Cancer Gene Census
+ENSG00000072062	PRKACA	protein kinase cAMP-activated catalytic subunit alpha	19p13.12	protein_coding	9	1396	0.64	112	16508	0.68	1522	163	10.71	453	29.76	9	Cancer Gene Census
+ENSG00000108946	PRKAR1A	protein kinase cAMP-dependent type I regulatory subunit alpha	17q24.2	protein_coding	9	1396	0.64	96	16508	0.58	1522	572	37.58	72	4.73	9	Cancer Gene Census
+ENSG00000114354	TFG	trafficking from ER to golgi regulator	3q12.2	protein_coding	9	1396	0.64	82	16508	0.50	1522	517	33.97	193	12.68	9	Cancer Gene Census
+ENSG00000124795	DEK	DEK proto-oncogene	6p22.3	protein_coding	9	1396	0.64	102	16508	0.62	1522	427	28.06	174	11.43	10	Cancer Gene Census
+ENSG00000126934	MAP2K2	mitogen-activated protein kinase kinase 2	19p13.3	protein_coding	9	1396	0.64	116	16508	0.70	1522	128	8.41	504	33.11	9	Cancer Gene Census
+ENSG00000127083	OMD	osteomodulin	9q22.31	protein_coding	9	1396	0.64	89	16508	0.54	1522	169	11.10	481	31.60	9	Cancer Gene Census
+ENSG00000133639	BTG1	BTG anti-proliferation factor 1	12q21.33	protein_coding	9	1396	0.64	82	16508	0.50	1522	329	21.62	183	12.02	9	Cancer Gene Census
+ENSG00000134574	DDB2	damage specific DNA binding protein 2	11p11.2	protein_coding	9	1396	0.64	81	16508	0.49	1522	275	18.07	207	13.60	9	Cancer Gene Census
+ENSG00000136238	RAC1	Rac family small GTPase 1	7p22.1	protein_coding	9	1396	0.64	105	16508	0.64	1522	692	45.47	101	6.64	9	Cancer Gene Census
+ENSG00000136997	MYC	MYC proto-oncogene, bHLH transcription factor	8q24.21	protein_coding	9	1396	0.64	177	16508	1.07	1522	840	55.19	43	2.83	9	Cancer Gene Census
+ENSG00000137193	PIM1	Pim-1 proto-oncogene, serine/threonine kinase	6p21.2	protein_coding	9	1396	0.64	106	16508	0.64	1522	425	27.92	162	10.64	10	Cancer Gene Census
+ENSG00000147140	NONO	non-POU domain containing octamer binding	Xq13.1	protein_coding	9	1396	0.64	148	16508	0.90	1522	0	0.00	0	0.00	9	Cancer Gene Census
+ENSG00000170430	MGMT	O-6-methylguanine-DNA methyltransferase	10q26.3	protein_coding	9	1396	0.64	77	16508	0.47	1522	178	11.70	402	26.41	8	Cancer Gene Census
+ENSG00000183722	LHFPL6	LHFPL tetraspan subfamily member 6	13q13.3, 13q14.11	protein_coding	9	1396	0.64	65	16508	0.39	1522	104	6.83	649	42.64	9	Cancer Gene Census
+ENSG00000245848	CEBPA	CCAAT enhancer binding protein alpha	19q13.11	protein_coding	9	1396	0.64	63	16508	0.38	1522	411	27.00	185	12.16	10	Cancer Gene Census
+ENSG00000048462	TNFRSF17	TNF receptor superfamily member 17	16p13.13	protein_coding	8	1396	0.57	53	16508	0.32	1522	367	24.11	215	14.13	8	Cancer Gene Census
+ENSG00000065057	NTHL1	nth like DNA glycosylase 1	16p13.3	protein_coding	8	1396	0.57	71	16508	0.43	1522	343	22.54	257	16.89	8	Cancer Gene Census
+ENSG00000067560	RHOA	ras homolog family member A	3p21.31	protein_coding	8	1396	0.57	143	16508	0.87	1522	59	3.88	680	44.68	6	Cancer Gene Census
+ENSG00000071564	TCF3	transcription factor 3	19p13.3	protein_coding	8	1396	0.57	139	16508	0.84	1522	134	8.80	511	33.57	8	Cancer Gene Census
+ENSG00000073584	SMARCE1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1	17q21.2	protein_coding	8	1396	0.57	91	16508	0.55	1522	452	29.70	145	9.53	8	Cancer Gene Census
+ENSG00000105619	TFPT	TCF3 fusion partner	19q13.42	protein_coding	8	1396	0.57	68	16508	0.41	1522	277	18.20	297	19.51	8	Cancer Gene Census
+ENSG00000107807	TLX1	T cell leukemia homeobox 1	10q24.31	protein_coding	8	1396	0.57	67	16508	0.41	1522	165	10.84	394	25.89	8	Cancer Gene Census
+ENSG00000110367	DDX6	DEAD-box helicase 6	11q23.3	protein_coding	8	1396	0.57	82	16508	0.50	1522	297	19.51	273	17.94	8	Cancer Gene Census
+ENSG00000112039	FANCE	FA complementation group E	6p21.31	protein_coding	8	1396	0.57	102	16508	0.62	1522	419	27.53	166	10.91	8	Cancer Gene Census
+ENSG00000119537	KDSR	3-ketodihydrosphingosine reductase	18q21.33	protein_coding	8	1396	0.57	65	16508	0.39	1522	176	11.56	527	34.63	8	Cancer Gene Census
+ENSG00000129514	FOXA1	forkhead box A1	14q21.1	protein_coding	8	1396	0.57	209	16508	1.27	1522	476	31.27	212	13.93	8	Cancer Gene Census
+ENSG00000135446	CDK4	cyclin dependent kinase 4	12q14.1	protein_coding	8	1396	0.57	71	16508	0.43	1522	416	27.33	111	7.29	7	Cancer Gene Census
+ENSG00000136014	USP44	ubiquitin specific peptidase 44	12q22	protein_coding	8	1396	0.57	153	16508	0.93	1522	327	21.48	186	12.22	8	Cancer Gene Census
+ENSG00000143294	PRCC	proline rich mitotic checkpoint control factor	1q23.1	protein_coding	8	1396	0.57	117	16508	0.71	1522	838	55.06	36	2.37	8	Cancer Gene Census
+ENSG00000156052	GNAQ	G protein subunit alpha q	9q21.2	protein_coding	8	1396	0.57	144	16508	0.87	1522	157	10.32	496	32.59	8	Cancer Gene Census
+ENSG00000157873	TNFRSF14	TNF receptor superfamily member 14	1p36.32	protein_coding	8	1396	0.57	69	16508	0.42	1522	114	7.49	176	11.56	8	Cancer Gene Census
+ENSG00000166886	NAB2	NGFI-A binding protein 2	12q13.3	protein_coding	8	1396	0.57	108	16508	0.65	1522	389	25.56	122	8.02	8	Cancer Gene Census
+ENSG00000167460	TPM4	tropomyosin 4	19p13.12, 19p13.11	protein_coding	8	1396	0.57	85	16508	0.51	1522	175	11.50	426	27.99	9	Cancer Gene Census
+ENSG00000170234	PWWP2A	PWWP domain containing 2A	5q33.3	protein_coding	8	1396	0.57	114	16508	0.69	1522	210	13.80	490	32.19	8	Cancer Gene Census
+ENSG00000175832	ETV4	ETS variant transcription factor 4	17q21.31	protein_coding	8	1396	0.57	106	16508	0.64	1522	450	29.57	136	8.94	8	Cancer Gene Census
+ENSG00000183813	CCR4	C-C motif chemokine receptor 4	3p22.3	protein_coding	8	1396	0.57	93	16508	0.56	1522	79	5.19	640	42.05	8	Cancer Gene Census
+ENSG00000189283	FHIT	fragile histidine triad diadenosine triphosphatase	3p14.2	protein_coding	8	1396	0.57	52	16508	0.31	1522	66	4.34	678	44.55	8	Cancer Gene Census
+ENSG00000213066	CEP43	centrosomal protein 43	6q27	protein_coding	8	1396	0.57	73	16508	0.44	1522	188	12.35	441	28.98	8	Cancer Gene Census
+ENSG00000092820	EZR	ezrin	6q25.3	protein_coding	7	1396	0.50	127	16508	0.77	1522	190	12.48	434	28.52	7	Cancer Gene Census
+ENSG00000110987	BCL7A	BAF chromatin remodeling complex subunit BCL7A	12q24.31	protein_coding	7	1396	0.50	276	16508	1.67	1522	315	20.70	229	15.05	7	Cancer Gene Census
+ENSG00000124145	SDC4	syndecan 4	20q13.12	protein_coding	7	1396	0.50	66	16508	0.40	1522	523	34.36	135	8.87	7	Cancer Gene Census
+ENSG00000124762	CDKN1A	cyclin dependent kinase inhibitor 1A	6p21.2	protein_coding	7	1396	0.50	110	16508	0.67	1522	422	27.73	163	10.71	7	Cancer Gene Census
+ENSG00000126524	SBDS	SBDS ribosome maturation factor	7q11.21	protein_coding	7	1396	0.50	69	16508	0.42	1522	541	35.55	120	7.88	7	Cancer Gene Census
+ENSG00000126752	SSX1	SSX family member 1	Xp11.23	protein_coding	7	1396	0.50	67	16508	0.41	1522	0	0.00	0	0.00	8	Cancer Gene Census
+ENSG00000134352	IL6ST	interleukin 6 signal transducer	5q11.2	protein_coding	7	1396	0.50	186	16508	1.13	1522	240	15.77	489	32.13	7	Cancer Gene Census
+ENSG00000136754	ABI1	abl interactor 1	10p12.1	protein_coding	7	1396	0.50	93	16508	0.56	1522	291	19.12	264	17.35	8	Cancer Gene Census
+ENSG00000167985	SDHAF2	succinate dehydrogenase complex assembly factor 2	11q12.2	protein_coding	7	1396	0.50	56	16508	0.34	1522	318	20.89	149	9.79	7	Cancer Gene Census
+ENSG00000168496	FEN1	flap structure-specific endonuclease 1	11q12.2	protein_coding	7	1396	0.50	71	16508	0.43	1522	316	20.76	149	9.79	7	Cancer Gene Census
+ENSG00000197646	PDCD1LG2	programmed cell death 1 ligand 2	9p24.1	protein_coding	7	1396	0.50	48	16508	0.29	1522	206	13.53	649	42.64	7	Cancer Gene Census
+ENSG00000204103	MAFB	MAF bZIP transcription factor B	20q12	protein_coding	7	1396	0.50	83	16508	0.50	1522	518	34.03	126	8.28	7	Cancer Gene Census
+ENSG00000214562	NUTM2D	NUT family member 2D	10q23.2	protein_coding	7	1396	0.50	59	16508	0.36	1522	152	9.99	394	25.89	7	Cancer Gene Census
+ENSG00000069399	BCL3	BCL3 transcription coactivator	19q13.32	protein_coding	6	1396	0.43	95	16508	0.58	1522	318	20.89	248	16.29	6	Cancer Gene Census
+ENSG00000101213	PTK6	protein tyrosine kinase 6	20q13.33	protein_coding	6	1396	0.43	93	16508	0.56	1522	570	37.45	112	7.36	6	Cancer Gene Census
+ENSG00000111252	SH2B3	SH2B adaptor protein 3	12q24.12	protein_coding	6	1396	0.43	110	16508	0.67	1522	313	20.57	207	13.60	6	Cancer Gene Census
+ENSG00000112237	CCNC	cyclin C	6q16.2	protein_coding	6	1396	0.43	70	16508	0.42	1522	180	11.83	437	28.71	6	Cancer Gene Census
+ENSG00000117118	SDHB	succinate dehydrogenase complex iron sulfur subunit B	1p36.13	protein_coding	6	1396	0.43	43	16508	0.26	1522	204	13.40	318	20.89	6	Cancer Gene Census
+ENSG00000117318	ID3	inhibitor of DNA binding 3, HLH protein	1p36.12	protein_coding	6	1396	0.43	36	16508	0.22	1522	195	12.81	316	20.76	6	Cancer Gene Census
+ENSG00000125285	SOX21	SRY-box transcription factor 21	13q32.1	protein_coding	6	1396	0.43	52	16508	0.31	1522	203	13.34	524	34.43	6	Cancer Gene Census
+ENSG00000142867	BCL10	BCL10 immune signaling adaptor	1p22.3	protein_coding	6	1396	0.43	69	16508	0.42	1522	210	13.80	317	20.83	6	Cancer Gene Census
+ENSG00000163041	H3-3A	H3.3 histone A	1q42.12	protein_coding	6	1396	0.43	49	16508	0.30	1522	777	51.05	52	3.42	6	Cancer Gene Census
+ENSG00000163497	FEV	FEV transcription factor, ETS family member	2q35	protein_coding	6	1396	0.43	29	16508	0.18	1522	280	18.40	200	13.14	6	Cancer Gene Census
+ENSG00000164305	CASP3	caspase 3	4q35.1	protein_coding	6	1396	0.43	69	16508	0.42	1522	118	7.75	512	33.64	6	Cancer Gene Census
+ENSG00000166407	LMO1	LIM domain only 1	11p15.4	protein_coding	6	1396	0.43	47	16508	0.28	1522	178	11.70	341	22.40	6	Cancer Gene Census
+ENSG00000169714	CNBP	CCHC-type zinc finger nucleic acid binding protein	3q21.3	protein_coding	6	1396	0.43	40	16508	0.24	1522	580	38.11	169	11.10	6	Cancer Gene Census
+ENSG00000205927	OLIG2	oligodendrocyte transcription factor 2	21q22.11	protein_coding	6	1396	0.43	81	16508	0.49	1522	235	15.44	364	23.92	6	Cancer Gene Census
+ENSG00000067955	CBFB	core-binding factor subunit beta	16q22.1	protein_coding	5	1396	0.36	85	16508	0.51	1522	280	18.40	339	22.27	5	Cancer Gene Census
+ENSG00000088256	GNA11	G protein subunit alpha 11	19p13.3	protein_coding	5	1396	0.36	123	16508	0.75	1522	125	8.21	503	33.05	5	Cancer Gene Census
+ENSG00000108953	YWHAE	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein epsilon	17p13.3	protein_coding	5	1396	0.36	62	16508	0.38	1522	116	7.62	644	42.31	5	Cancer Gene Census
+ENSG00000112576	CCND3	cyclin D3	6p21.1	protein_coding	5	1396	0.36	104	16508	0.63	1522	432	28.38	157	10.32	5	Cancer Gene Census
+ENSG00000118260	CREB1	cAMP responsive element binding protein 1	2q33.3	protein_coding	5	1396	0.36	63	16508	0.38	1522	334	21.94	150	9.86	6	Cancer Gene Census
+ENSG00000119335	SET	SET nuclear proto-oncogene	9q34.11	protein_coding	5	1396	0.36	78	16508	0.47	1522	184	12.09	459	30.16	5	Cancer Gene Census
+ENSG00000120217	CD274	CD274 molecule	9p24.1	protein_coding	5	1396	0.36	60	16508	0.36	1522	206	13.53	649	42.64	5	Cancer Gene Census
+ENSG00000141985	SH3GL1	SH3 domain containing GRB2 like 1, endophilin A2	19p13.3	protein_coding	5	1396	0.36	106	16508	0.64	1522	131	8.61	496	32.59	5	Cancer Gene Census
+ENSG00000151532	VTI1A	vesicle transport through interaction with t-SNAREs 1A	10q25.2	protein_coding	5	1396	0.36	54	16508	0.33	1522	180	11.83	380	24.97	5	Cancer Gene Census
+ENSG00000168092	PAFAH1B2	platelet activating factor acetylhydrolase 1b catalytic subunit 2	11q23.3	protein_coding	5	1396	0.36	46	16508	0.28	1522	286	18.79	286	18.79	5	Cancer Gene Census
+ENSG00000183508	TENT5C	terminal nucleotidyltransferase 5C	1p12	protein_coding	5	1396	0.36	219	16508	1.33	1522	223	14.65	356	23.39	5	Cancer Gene Census
+ENSG00000197880	MDS2	myelodysplastic syndrome 2 translocation associated	1p36.12, 1p36.11	lncRNA	5	1396	0.36	57	16508	0.35	1522	0	0.00	0	0.00	6	Cancer Gene Census
+ENSG00000051108	HERPUD1	homocysteine inducible ER protein with ubiquitin like domain 1	16q13	protein_coding	4	1396	0.29	77	16508	0.47	1522	275	18.07	337	22.14	4	Cancer Gene Census
+ENSG00000105369	CD79A	CD79a molecule	19q13.2	protein_coding	4	1396	0.29	70	16508	0.42	1522	312	20.50	248	16.29	4	Cancer Gene Census
+ENSG00000109220	CHIC2	cysteine rich hydrophobic domain 2	4q12	protein_coding	4	1396	0.29	40	16508	0.24	1522	286	18.79	282	18.53	4	Cancer Gene Census
+ENSG00000112081	SRSF3	serine and arginine rich splicing factor 3	6p21.31, 6p21.2	protein_coding	4	1396	0.29	54	16508	0.33	1522	421	27.66	164	10.78	4	Cancer Gene Census
+ENSG00000116251	RPL22	ribosomal protein L22	1p36.31	protein_coding	4	1396	0.29	264	16508	1.60	1522	223	14.65	336	22.08	4	Cancer Gene Census
+ENSG00000136936	XPA	XPA, DNA damage recognition and repair factor	9q22.33	protein_coding	4	1396	0.29	55	16508	0.33	1522	170	11.17	482	31.67	4	Cancer Gene Census
+ENSG00000142273	CBLC	Cbl proto-oncogene C	19q13.32	protein_coding	4	1396	0.29	101	16508	0.61	1522	318	20.89	248	16.29	4	Cancer Gene Census
+ENSG00000169249	ZRSR2	zinc finger CCCH-type, RNA binding motif and serine/arginine rich 2	Xp22.2	protein_coding	4	1396	0.29	91	16508	0.55	1522	0	0.00	0	0.00	4	Cancer Gene Census
+ENSG00000172936	MYD88	MYD88 innate immune signal transduction adaptor	3p22.2	protein_coding	4	1396	0.29	70	16508	0.42	1522	70	4.60	649	42.64	4	Cancer Gene Census
+ENSG00000173674	EIF1AX	eukaryotic translation initiation factor 1A X-linked	Xp22.12	protein_coding	4	1396	0.29	81	16508	0.49	1522	0	0.00	0	0.00	4	Cancer Gene Census
+ENSG00000179362	HMGN2P46	high mobility group nucleosomal binding domain 2 pseudogene 46	15q21.1	transcribed_processed_pseudogene	4	1396	0.29	37	16508	0.22	1522	0	0.00	0	0.00	4	Cancer Gene Census
+ENSG00000186051	TAL2	TAL bHLH transcription factor 2	9q31.2	protein_coding	4	1396	0.29	33	16508	0.20	1522	190	12.48	463	30.42	4	Cancer Gene Census
+ENSG00000188199	NUTM2B	NUT family member 2B	10q22.3	protein_coding	4	1396	0.29	30	16508	0.18	1522	197	12.94	365	23.98	5	Cancer Gene Census
+ENSG00000204531	POU5F1	POU class 5 homeobox 1	6p21.33	protein_coding	4	1396	0.29	80	16508	0.48	1522	421	27.66	166	10.91	4	Cancer Gene Census
+ENSG00000251562	MALAT1	metastasis associated lung adenocarcinoma transcript 1	11q13.1	lncRNA	4	1396	0.29	10	16508	0.06	1522	0	0.00	0	0.00	4	Cancer Gene Census
+ENSG00000019582	CD74	CD74 molecule	5q33.1	protein_coding	3	1396	0.21	54	16508	0.33	1522	194	12.75	501	32.92	3	Cancer Gene Census
+ENSG00000070404	FSTL3	follistatin like 3	19p13.3	protein_coding	3	1396	0.21	31	16508	0.19	1522	139	9.13	513	33.71	3	Cancer Gene Census
+ENSG00000116990	MYCL	MYCL proto-oncogene, bHLH transcription factor	1p34.2	protein_coding	3	1396	0.21	78	16508	0.47	1522	266	17.48	228	14.98	3	Cancer Gene Census
+ENSG00000123080	CDKN2C	cyclin dependent kinase inhibitor 2C	1p32.3	protein_coding	3	1396	0.21	57	16508	0.35	1522	222	14.59	267	17.54	3	Cancer Gene Census
+ENSG00000135956	TMEM127	transmembrane protein 127	2q11.2	protein_coding	3	1396	0.21	53	16508	0.32	1522	468	30.75	51	3.35	3	Cancer Gene Census
+ENSG00000214827	MTCP1	mature T cell proliferation 1	Xq28	protein_coding	3	1396	0.21	23	16508	0.14	1522	0	0.00	0	0.00	3	Cancer Gene Census
+ENSG00000241476	SSX2	SSX family member 2	Xp11.22	protein_coding	3	1396	0.21	22	16508	0.13	1522	0	0.00	0	0.00	3	Cancer Gene Census
+ENSG00000104660	LEPROTL1	leptin receptor overlapping transcript like 1	8p12	protein_coding	2	1396	0.14	32	16508	0.19	1522	169	11.10	672	44.15	2	Cancer Gene Census
+ENSG00000104903	LYL1	LYL1 basic helix-loop-helix family member	19p13.13	protein_coding	2	1396	0.14	36	16508	0.22	1522	158	10.38	465	30.55	2	Cancer Gene Census
+ENSG00000123268	ATF1	activating transcription factor 1	12q13.12	protein_coding	2	1396	0.14	59	16508	0.36	1522	357	23.46	148	9.72	2	Cancer Gene Census
+ENSG00000126353	CCR7	C-C motif chemokine receptor 7	17q21.2	protein_coding	2	1396	0.14	94	16508	0.57	1522	455	29.89	144	9.46	2	Cancer Gene Census
+ENSG00000170791	CHCHD7	coiled-coil-helix-coiled-coil-helix domain containing 7	8q12.1	protein_coding	2	1396	0.14	29	16508	0.18	1522	575	37.78	152	9.99	2	Cancer Gene Census
+ENSG00000175197	DDIT3	DNA damage inducible transcript 3	12q13.3	protein_coding	2	1396	0.14	38	16508	0.23	1522	402	26.41	117	7.69	2	Cancer Gene Census
+ENSG00000134899	ERCC5	ERCC excision repair 5, endonuclease	13q33.1	protein_coding	1	1396	0.07	17	16508	0.10	1522	197	12.94	522	34.30	1	Cancer Gene Census
+ENSG00000164919	COX6C	cytochrome c oxidase subunit 6C	8q22.2	protein_coding	1	1396	0.07	23	16508	0.14	1522	749	49.21	61	4.01	1	Cancer Gene Census
+ENSG00000175643	RMI2	RecQ mediated genome instability 2	16p13.13	protein_coding	1	1396	0.07	19	16508	0.12	1522	372	24.44	213	13.99	1	Cancer Gene Census
+ENSG00000182054	IDH2	isocitrate dehydrogenase (NADP(+)) 2	15q26.1	protein_coding	1	1396	0.07	146	16508	0.88	1522	278	18.27	346	22.73	1	Cancer Gene Census
+ENSG00000185338	SOCS1	suppressor of cytokine signaling 1	16p13.13	protein_coding	1	1396	0.07	42	16508	0.25	1522	372	24.44	214	14.06	1	Cancer Gene Census
+ENSG00000213190	MLLT11	MLLT11 transcription factor 7 cofactor	1q21.3	protein_coding	1	1396	0.07	27	16508	0.16	1522	845	55.52	37	2.43	1	Cancer Gene Census
+ENSG00000261652	C15orf65	chromosome 15 open reading frame 65	15q21.3	protein_coding	1	1396	0.07	10	16508	0.06	1522	194	12.75	432	28.38	1	Cancer Gene Census
+ENSG00000137309	HMGA1	high mobility group AT-hook 1	6p21.31	protein_coding	0	1396	0.00	24	16508	0.15	1522	415	27.27	169	11.10	0	Cancer Gene Census
+ENSG00000160201	U2AF1	U2 small nuclear RNA auxiliary factor 1	21q22.3	protein_coding	0	1396	0.00	6	16508	0.04	1522	209	13.73	419	27.53	0	Cancer Gene Census
