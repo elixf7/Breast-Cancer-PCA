@@ -53,7 +53,7 @@ The RNA expression variance plot shows that the first few principal components c
 <!-- ![RNA PCA Plot](Image%205.png) -->
 <!-- <iframe src="docs/pca_RNA.html" width="900" height="700" style="border:none;"></iframe> -->
 
-[View Interactive PCA Plot](docs/pca_RNA.html)
+[View Interactive PCA Plot](https://elixf7.github.io/Breast-Cancer-PCA/)
 
 The interactive PCA plot of RNA expression data shows the first two principal components, with PC1 explaining 8.00% and PC2 explaining 6.69% of the variance. While there's substantial overlap between cancer types, some patterns emerge:
 
