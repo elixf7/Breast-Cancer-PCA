@@ -67,11 +67,11 @@
       gap: 20px;
       margin-bottom: 40px;
     }
-
-    /* Responsive Iframe Wrapper */
+    
+    /* Responsive Iframe Wrapper for Aspect Ratio */
     .responsive-iframe {
       position: relative;
-      padding-bottom: 100%; /* Adjust this value to control the aspect ratio */
+      padding-bottom: 100%; /* Default aspect ratio for PCA & others */
       height: 0;
       overflow: hidden;
       border: 1px solid #ddd;
@@ -87,6 +87,15 @@
       height: 100%;
       border: 0;
     }
+
+    /* Overrides for LDA section only */
+    #lda .iframe-container {
+      grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    }
+    #lda .responsive-iframe {
+      padding-bottom: 120%; /* Adjust for taller containers if needed */
+    }
+    
   </style>
 </head>
 <body>
