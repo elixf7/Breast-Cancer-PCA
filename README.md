@@ -1,8 +1,40 @@
 # Breast Cancer Genomic Analysis: Exploring Molecular Patterns with PCA and LDA
 
+Author: Eli Fried
+
 ## Motivation
 
-After reading the paper "Genes mirror geography within Europe" about how PCA was used on human genomes in Europe to
+In the Evolutionary Genetics (BIOL-454) course taught by Parul Johri, Ph.D at University of North Carolina at Chapel Hill we read the paper [Genes mirror geography within Europe](https://pubmed.ncbi.nlm.nih.gov/18758442/), (Novembre, J) about how PCA (Principal Component Analysis) was used on human genomes in Europe to map population structure.
+
+I explain more about PCA later in the README, but this method of data analysis allows researchers to simplify high dimensional data by finding axis that explain the highest variance. If you then plot the data based on these axes you are often able to find trends in the data despite the extreme complexity.
+
+Genetic information is perfect for this since it has both high dimensionality (many base-pair sites) and also high homogeneity(genomes are mostly similar). In the paper researchers performed PCA to differentiate the data and plotted the points on a 2D graph where the axes were the first two PCA Components (axes that described the most variance). Shockingly, the plot strongly resembled the geography of Europe and you were even able to pick out significant geographical landmarks such as seas and mountain ranges.
+
+The first two Principal Components corresponded to longitude and latitude with high accuracy and drew my attention to how powerful this method of analysis could be. I decided to try PCA out for myself to gain a better understanding of how it works and its applications.
+
+I decided to work on two projects:
+
+1. **Sage Grouse Genome PCA**
+
+   The first project was using genetic data from the [Gunnison Sage Grouse]() to replicate the results of PCA in the paper [An empirical comparison of population genetic analyses using microsatellite and SNP data for a species of conservation concern](https://doi.org/10.1186/s12864-020-06783-9) by Zimmerman, S.J.
+
+   This project is in another Github repository linked [HERE]() if you wish to learn more.
+
+2. **Breast Cancer Genome Analysis**
+
+   The project stored in this repository.
+
+   **Initial Idea:**
+
+   Initially, I wanted to obtain genetic sequencing data from cancer cells and use PCA to find trends in how different subsets of this cancer differ. A factor that can make cancer difficult to treat is the fact that even among similar cancers the mutations that accumulate can be quite different. With PCA analysis I thought I might be better able to visualize the different subgroups of cancer and see if they correlate to other variables such as how aggressive they are, resistance to treatment, etc
+
+   However, human cancer sequences are difficult to obtain (for obvious privacy reasons) and since I did not want to do complex genome transformations and alignment I needed a single study that had already done this with an acceptably large sample size. Due to these restrictions, I decided to use a different type of data for my final project.
+
+   **Final Idea:**
+
+   Since genome information was difficult to obtain and often required complex tools to work with I decided to use the METABRIC dataset described below which focuses on RNA expression data and Mutation data. While this is not ideal, the data is still high dimensional, the sample size is large, and I believed I would still be able to find some trends in the data using PCA.
+
+   I also had the idea to use LDA (Linear Discriminant Analysis) which is similar to PCA in that it is a dimensionality reduction technique, but instead focuses on finding component axes that best separate (classify) a variable. I describe this more in depth later in the README, but using LDA would allow me to see how closely related specific classifications are, and see if the grouping correlate to other variables. For examples of how LDA works go to the LDA section.
 
 ## Dataset Overview
 
@@ -17,21 +49,21 @@ This project analyzes the METABRIC (Molecular Taxonomy of Breast Cancer Internat
 
 ### Age Distribution and Survival Analysis
 
-![Age Distribution and Survival](Image%201.png)
+<img src="Images/Age-Survival.png" alt="Age & Survival" width="600"/>
 
-The age distribution shows most breast cancer diagnoses occur between 60-70 years. The boxplot reveals survival differences across cancer subtypes, with most types showing longer survival for living patients (blue) than deceased patients (purple). Notably, there's considerable variability in survival time within each cancer type, reflecting the heterogeneous nature of breast cancer.
+The age distribution shows most breast cancer diagnoses occur between 60-70 years. The boxplot reveals survival differences across cancer subtypes. Notably, there's considerable variability in survival time within each cancer type, reflecting the heterogeneous nature of breast cancer.
 
 ### Cancer Type Distribution and Treatment Approaches
 
-![Cancer Types and Treatment](Image%202.png)
+<img src="Images/types-treatment.png" alt="Treatment Types" width="600"/>
 
 The pie chart shows Breast Invasive Ductal Carcinoma is the predominant type (79.4%), followed by Breast Mixed Ductal and Lobular Carcinoma (11.0%), Breast Invasive Lobular Carcinoma (7.5%), with other types making up the remainder. The treatment bar graph reveals hormone therapy and radiotherapy are more commonly used than chemotherapy, reflecting standard treatment protocols for hormone receptor-positive breast cancers.
 
 ### Mutation Count Distribution
 
-![Mutation Distribution](Image%203.png)
+<img src="Images/numMutations.png" alt="Number Mutations" width="600"/>
 
-The mutation count histogram shows a right-skewed distribution with most patients having 2-8 mutations, but a long tail extends to 80+ mutations in rare cases. This pattern is typical in cancer genomics and may reflect differences in DNA repair mechanisms or tumor evolution paths.
+The mutation count histogram shows a right-skewed distribution with most patients having 2-8 mutations, but a long tail extends to 80+ mutations in rare cases. This pattern is typical in cancer genomics and may reflect differences in tumor evolution paths.
 
 ## Principal Component Analysis (PCA)
 
@@ -46,44 +78,45 @@ Principal Component Analysis is a dimensionality reduction technique that transf
 
 ### PCA Results for RNA Expression Data
 
-![RNA PCA Variance](Image%204.png)
+<img src="Images/Explained_Var_RNA.png" alt="Explained Variance" width="600"/>
 
 The RNA expression variance plot shows that the first few principal components capture a relatively small percentage of the overall variance. Even with 40 components, we only reach about 53% of cumulative explained variance. This indicates high dimensionality in the RNA data, with information distributed across many components.
 
-<!-- ![RNA PCA Plot](Image%205.png) -->
-<!-- <iframe src="docs/pca_RNA.html" width="900" height="700" style="border:none;"></iframe> -->
+This does not capture the amount of variation I would've hope for with that many components. It shows that the data noisy and the variation cannot be explained easily. This is a drawback of having to pivot away from sequence data.
 
-[View RNA PCA PLOT](https://elixf7.github.io/Breast-Cancer-PCA/pca_RNA.html)
+#### Interactive RNA PCA Plot
 
-The interactive PCA plot of RNA expression data shows the first two principal components, with PC1 explaining 8.00% and PC2 explaining 6.69% of the variance. While there's substantial overlap between cancer types, some patterns emerge:
+I plotted the first two principal components on a 2D graph to see if there is any meaningful separation. Together, these components only represent 14.69% of the variation in the data which is quite small. Despite this, you can still see some interesting trends when using the dropdown menu to change how the graph is color coded. Specifically Neoplasm Histologic Grade (how aggressive the cancer is observed to be) shows some significant separation.
 
-- Breast Invasive Ductal Carcinoma (blue) is widely distributed, reflecting its heterogeneity
-- Breast Invasive Lobular Carcinoma (green) shows some distinct clustering
-- The large overlap suggests shared molecular mechanisms across cancer types
+By clicking on the image below you are brought to my Github Pages site which has all of my interactive plots. The dropdown allows coloring by different clinical variables, enabling exploration of which factors correlate with genetic expression patterns.
 
-The interactive dropdown allows coloring by different clinical variables, enabling exploration of which factors correlate with genetic expression patterns.
+[<img src="Images/rna_pca.png" width="600">](https://elixf7.github.io/Breast-Cancer-PCA)
+
+[CLICK ON THE IMAGE OR THIS LINK TO INTERACT WITH PLOTS](https://elixf7.github.io/Breast-Cancer-PCA)
 
 ### PCA Results for Mutation Data
 
-![Mutation PCA Variance](Image%206.png)
+<img src="Images/Explained_Var_Mut.png" alt="Explained Variance" width="600"/>
 
 The mutation data variance plot shows a more gradual accumulation of explained variance compared to RNA data. With 40 components, we reach about 64% of cumulative variance, indicating slightly better dimensionality reduction potential than RNA data.
 
-![Mutation PCA Plot](Image%207.png)
+#### Interactive Mutation PCA Plot
 
-The mutation PCA plot reveals a distinctive pattern with several distinct clusters, suggesting that mutation profiles might better separate cancer subtypes than expression profiles. PC1 explains 6.44% and PC2 explains 4.69% of variance. The plot shows:
+Despite a slightly higher cumulative explained variance, I am only plotting the first two components which are 6.44% and 4.69% (11.13% total) which is even lower than the RNA plot. As you can see the graph has separated into four subgroups. While at first glance this might appear to be a successful separation, this pattern is likely due to PC1 and PC2 correlating to specific mutations. For example, one group may have both mutations, two of them only have one of the two mutations, and one group has neither mutations. This accounts for the four groups.
 
-- Multiple well-defined clusters that don't directly correlate with conventional cancer types
-- These clusters likely represent different mutational signatures or processes
-- The separation is clearer than in the RNA PCA, suggesting mutation data might be more informative for subtyping
+While I would like to do more analysis on which mutations these correspond to (likely the most prevalent mutations), this plot does not explain much of the total variance, so the results are not very representative of the entire dataset. Instead, I will use LDA later on to get meaningful insights. Plotting only two of the axes is more of an exercise in understanding PCA rather than generating meaningful visualizations because of the small explained variance.
+
+[<img src="Images/mut_pca.png" width="600">](https://elixf7.github.io/Breast-Cancer-PCA)
+
+[CLICK ON THE IMAGE OR THIS LINK TO INTERACT WITH PLOTS](https://elixf7.github.io/Breast-Cancer-PCA)
 
 ### Comparing RNA and Mutation PCA Results
 
-The RNA and mutation PCA analyses provide complementary views of breast cancer biology:
+The RNA and mutation PCA analyses provide complementary views of breast cancer biology. While they are not as ideal for this task as sequence data since they did not capture as much variation as I hoped, there are still some interesting characteristics that can tell us about the data.
 
 1. **Explained variance**: Both analyses require many components to explain substantial variance, reflecting the complexity of cancer biology, but mutation data appears slightly more reducible.
 
-2. **Clustering patterns**: Mutation data shows more distinct clustering than RNA expression, suggesting that genetic alterations might provide clearer molecular subtypes.
+2. **Clustering patterns**: Mutation data shows more distinct clustering than RNA expression despite the first two components describing less variation than RNA. This is likely due to corelation to specific gene mutations and the 2D plot does not give a good view of the data as a whole.
 
 3. **Biology interpretation**:
 
@@ -102,41 +135,63 @@ Linear Discriminant Analysis is a supervised dimensionality reduction technique 
 2. Helps identify genetic signatures associated with specific clinical variables
 3. Offers a supervised approach to understanding molecular subtypes
 
+<img src="Images/lda-vs-pca.png" width="600"/>
+
+I decided to use LDA since it allowed me to choose a given variable (such as cancer type) and plot it in a way that maximally separates these categories. Then, I can change how the points are colored to see if the distinct groups ALSO correspond to another variable (such as cancer aggressiveness).
+
+You will notice that the LDA plots have more distinct groupings which makes it easier to interpret than my 2D PCA plots.
+
 ### LDA Results for RNA Expression Data
 
-![RNA LDA by Cancer Type](Image%208.png)
+[<img src="Images/rna_cancer-type.png" width="400">](https://elixf7.github.io/Breast-Cancer-PCA)
 
-The LDA plot for RNA expression data by cancer type shows remarkably good separation between cancer subtypes, especially for Breast Invasive Lobular Carcinoma (green) which forms a distinct cluster. This indicates that gene expression contains strong signals that can differentiate these histological types, despite the overlap seen in PCA.
+[CLICK ON THE IMAGE OR THIS LINK TO INTERACT WITH PLOTS](https://elixf7.github.io/Breast-Cancer-PCA)
 
-![RNA LDA by Histologic Subtype](Image%209.png)
+The LDA plot for RNA expression data by cancer type shows remarkably good separation between cancer subtypes, especially for Breast Invasive Lobular Carcinoma (green) which forms a distinct cluster. This indicates that gene expression contains strong signals that can differentiate these histological types.
+
+[<img src="Images/rna_hist-subtype.png" width="400">](https://elixf7.github.io/Breast-Cancer-PCA)
+
+[CLICK ON THE IMAGE OR THIS LINK TO INTERACT WITH PLOTS](https://elixf7.github.io/Breast-Cancer-PCA)
 
 When targeting histologic subtypes, the RNA LDA reveals excellent separation of Lobular carcinomas (green) and Medullary carcinomas (light blue). The clear clustering demonstrates that gene expression profiles strongly correlate with histological features observed under microscope examination.
 
-![RNA LDA by Integrative Cluster](Image%2010.png)
+[<img src="Images/rna_integ-clust.png" width="400">](https://elixf7.github.io/Breast-Cancer-PCA)
+
+[CLICK ON THE IMAGE OR THIS LINK TO INTERACT WITH PLOTS](https://elixf7.github.io/Breast-Cancer-PCA)
 
 The integrative cluster LDA shows remarkable separation between molecular subtypes, particularly cluster 10 (light green) and cluster 5 (light blue). The clear boundaries between these clusters validate the molecular taxonomy approach to breast cancer classification and suggest distinct biological mechanisms underlying each subtype.
 
-![RNA LDA by Histologic Grade](Image%2011.png)
+[<img src="Images/rna_neoplasm.png" width="400">](https://elixf7.github.io/Breast-Cancer-PCA)
+
+[CLICK ON THE IMAGE OR THIS LINK TO INTERACT WITH PLOTS](https://elixf7.github.io/Breast-Cancer-PCA)
 
 The LDA by histologic grade shows less distinct separation, with considerable overlap between grades. This suggests that while gene expression can partially predict tumor grade, other factors also influence this pathological assessment.
 
 ### LDA Results for Mutation Data
 
-![Mutation LDA by Cancer Type](Image%2012.png)
+[<img src="Images/mut_cancer-type.png" width="400">](https://elixf7.github.io/Breast-Cancer-PCA)
 
-The mutation data LDA for cancer types shows clear separation of Breast Invasive Lobular Carcinoma (green), similar to the RNA results. This indicates that both gene expression and mutation profiles can distinguish lobular carcinomas from other types, suggesting fundamental biological differences.
+[CLICK ON THE IMAGE OR THIS LINK TO INTERACT WITH PLOTS](https://elixf7.github.io/Breast-Cancer-PCA)
 
-![Mutation LDA by Histologic Subtype](Image%2013.png)
+The mutation data LDA for cancer types does not show clear separation of the different cancer types compared to RNA. The only category that has some separation is Breast Invasive Lobular Carcinoma (green), similar to the RNA results. This indicates that mutation profiles may be less adept at distinguishing cancer types compared to gene expression profiles (RNA).
 
-The mutation LDA by histologic subtype shows patterns similar to the RNA analysis, but with some differences in cluster shapes and separations. Lobular carcinomas (green) remain well-separated, indicating consistent molecular signatures across both expression and mutation analyses.
+[<img src="Images/mut_hist-subtype.png" width="400">](https://elixf7.github.io/Breast-Cancer-PCA)
 
-![Mutation LDA by Integrative Cluster](Image%2014.png)
+[CLICK ON THE IMAGE OR THIS LINK TO INTERACT WITH PLOTS](https://elixf7.github.io/Breast-Cancer-PCA)
 
-The integrative cluster LDA for mutation data shows less distinct clustering than the RNA analysis, suggesting that the molecular subtypes are defined more by expression patterns than by specific mutations.
+The mutation LDA by histologic subtype shows patterns similar to the RNA analysis, but with some differences in cluster shapes and separations. Lobular carcinomas (green) remain well-separated, indicating consistent molecular signatures across both expression and mutation analyses. However outside green there is not much of a pattern indicating that mutation profiles are not great at distinguishing histological subtypes.
 
-![Mutation LDA by Histologic Grade](Image%2015.png)
+[<img src="Images/mut_integ-clust.png" width="400">](https://elixf7.github.io/Breast-Cancer-PCA)
 
-The mutation LDA by grade shows some separation between grade 3 tumors (blue) and others, indicating that higher-grade tumors may have distinctive mutation patterns. Unlike RNA data, there appears to be better separation by grade using mutation data.
+[CLICK ON THE IMAGE OR THIS LINK TO INTERACT WITH PLOTS](https://elixf7.github.io/Breast-Cancer-PCA)
+
+The integrative cluster LDA for mutation data shows less distinct clustering than the RNA analysis, suggesting that the molecular subtypes are defined more by expression patterns than by specific mutations. However, this is still the plot that has the most separation compared to the other three variables examined.
+
+[<img src="Images/mut_neoplasm.png" width="400">](https://elixf7.github.io/Breast-Cancer-PCA)
+
+[CLICK ON THE IMAGE OR THIS LINK TO INTERACT WITH PLOTS](https://elixf7.github.io/Breast-Cancer-PCA)
+
+The mutation LDA by grade shows some separation between grade 3 tumors (blue) and others, indicating that higher-grade tumors may have distinctive mutation patterns. Compated to RNA data, there appears to be slightly worse separation by grade using mutation data.
 
 ### Comparing RNA and Mutation LDA Results
 
@@ -150,44 +205,36 @@ The LDA analyses reveal important insights about breast cancer molecular classif
 
 4. **Integrative clusters**: These molecular subtypes are better defined by expression patterns than mutation profiles, as shown by the clearer clustering in RNA LDA.
 
-5. **Tumor grade**: Mutation profiles show better separation by grade than expression data, suggesting that certain mutations may drive aggressive behavior.
-
-## Interactive Visualization Tools
-
-A key feature of this project is the interactive visualization capability:
-
-1. **PCA visualizations**: Allow coloring by multiple clinical variables through a convenient dropdown menu
-2. **LDA visualizations**: Provide dual-dropdown functionality to select both the target and color variables
-3. **Hover functionality**: Shows detailed information for each data point
-
-These tools transform static analyses into dynamic, exploratory interfaces that facilitate discovery of relationships between genetic profiles and clinical features.
+5. **Tumor grade**: RNA expression profiles show better separation by grade than mutation data but they are quite similar, suggesting that certain mutations may drive aggressive behavior.
 
 ## Conclusion
 
 This analysis of the METABRIC breast cancer dataset demonstrates the complementary power of unsupervised (PCA) and supervised (LDA) dimensionality reduction techniques in revealing molecular patterns in cancer genomics.
 
-Key findings include:
+PCA ended up having a low explained variance for even the first 40 principal components, which revealed that the RNA and Mutation data are complex and have a lot of variance explained by multiple variables. The 2D plots did show some separation, but that should be taken with a grain of salt considering they only represented 10-15% of the variation. Despite the PCA results not being incredibly conclusive and satisfying visually, I feel I gained a greater understanding of how dimensionality reduction works, and how it can specifically apply to genetic and biological data.
 
-1. RNA expression and mutation data provide different but complementary views of breast cancer biology, with mutations showing more distinct clustering in PCA and RNA showing better separation in LDA.
+LDA was more productive in that it was actually able to distinctly separate the categories for each variable quite well. While there was overall more separation for the RNA expression data than the Mutation data, both showed distinct groupings. When changing the color coding of the plots there were definitely some interesting patterns that emerged, which I encourage you to play around with by visiting the links above.
 
-2. Breast Invasive Lobular Carcinoma emerges as molecularly distinct from other subtypes in both analyses, suggesting fundamental biological differences.
-
-3. Integrative molecular clusters show remarkable separation in RNA LDA, validating their biological relevance as distinct disease entities.
-
-4. Interactive visualizations enable exploration of relationships between molecular patterns and clinical variables, potentially revealing biomarkers and treatment targets.
+I did not for the most part try to extract findings or clinical insights in this project, but instead wanted to demonstrate the ways in which dimensionality reduction can be used to create interesting visualizations and find patterns in the data that may not be easily found through other methods. I also wanted to assess what types of data work best with these methods and think I succeeded in showing how higher-variance, lower dimensionality data (RNA and Mutation data) differs from sequencing data in that it is harder to creating groupings yet interesting trends still arise.
 
 This project highlights how computational approaches can uncover patterns in complex cancer genomics data that may not be apparent through conventional analyses. The findings could contribute to improved molecular classification, biomarker development, and ultimately personalized treatment approaches for breast cancer patients.
 
+### Next Steps
+
+Going forward, I would love to apply these techniques to sequence data, and break down how different cancer types differ based purely on their raw genetic code. Increasing the level of granularity to base pairs would likely lead to better groupings, and more applicable insights into how different cancer cells can be within a broader designation such as "breast cancer".
+
+When searching for datasets, I played around with the National Cancer Institute [GCD Data Portal](https://portal.gdc.cancer.gov/) which does have standardized sequence data for many different cancer types. It is restricted for obvious reasons, but if researchers with access to this were to perform these analysis techniques I believe it could potentially lead to finding better ways to understand and treat cancer in a way that is extremely specific to the characteristics of the cancer cells in a patient.
+
 ## Sources
 
-1. Pereira, B., Chin, S.F., Rueda, O.M. et al. (2016). The somatic mutation profiles of 2,433 breast cancers refine their genomic and transcriptomic landscapes. Nature Communications, 7, 11479.
+1. [METABRIC Breast Cancer Dataset - Kaggle](https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric)
 
-2. Curtis, C., Shah, S.P., Chin, S.F. et al. (2012). The genomic and transcriptomic architecture of 2,000 breast tumours reveals novel subgroups. Nature, 486, 346-352.
+2. Pereira, B., Chin, SF., Rueda, O. et al. The somatic mutation profiles of 2,433 breast cancers refine their genomic and transcriptomic landscapes. Nat Commun 7, 11479 (2016). https://doi.org/10.1038/ncomms11479
 
-3. Jolliffe, I.T. & Cadima, J. (2016). Principal component analysis: a review and recent developments. Philosophical Transactions of the Royal Society A, 374, 20150202.
+3. [Genes mirror geography within Europe (Novembre, J)](https://pubmed.ncbi.nlm.nih.gov/18758442/)
 
-4. Fisher, R.A. (1936). The use of multiple measurements in taxonomic problems. Annals of Eugenics, 7, 179-188.
+## References for Future Work
 
-5. Tharwat, A., Gaber, T., Ibrahim, A., & Hassanien, A.E. (2017). Linear discriminant analysis: A detailed tutorial. AI Communications, 30, 169-190.
+1. [GDC Portal](https://portal.gdc.cancer.gov/)
 
-6. Ringner, M. (2008). What is principal component analysis? Nature Biotechnology, 26, 303-304.
+2. [Reddit Thread: cancer datasets](https://www.reddit.com/r/bioinformatics/comments/1bal1ji/what_are_some_cancer_databases_that_yall_use/)
