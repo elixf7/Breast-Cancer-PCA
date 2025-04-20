@@ -18,7 +18,7 @@ I decided to work on two projects:
 
    The first project was using genetic data from the [Gunnison Sage Grouse]() to replicate the results of PCA in the paper [An empirical comparison of population genetic analyses using microsatellite and SNP data for a species of conservation concern](https://doi.org/10.1186/s12864-020-06783-9) by Zimmerman, S.J.
 
-   This project is in another Github repository linked [HERE]() if you wish to learn more.
+   This project is in another Github repository linked [HERE](https://github.com/elixf7/Sage-Grouse-PCA) if you wish to learn more.
 
 2. **Breast Cancer Genome Analysis**
 
